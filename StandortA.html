@@ -18,6 +18,12 @@
     tailwind.config = {
       theme: {
         extend: {
+          width: {
+          '7.5xl': '1920px', // 84rem
+        },
+        maxWidth: {
+          '7.5xl': '1920px',
+        },
           fontFamily: {
             sans: ['Inter', 'system-ui', 'sans-serif'],
           }
@@ -143,16 +149,16 @@ body.preload {
 
       <option disabled>──────────</option>
       <option value="LEVEL_5">Verfügbare Lernräume</option>
-      <option value="P2.05">P2.05 - Seminarraum</option>
-      <option value="P2.06">P2.06 - Seminarraum</option>
-      <option value="P3.01">P3.01 - Seminarraum</option>
-      <option value="P3.36">P3.36 - Seminarraum</option>
-      <option value="P4.08-11">P4.08-11 - Anatomie</option>
-      <option value="P4.12">P4.12 - Anatomie</option>
-      <option value="P4.13">P4.12 - Anatomie</option>
-      <option value="P4.34">P4.34 - Anatomie</option>
-      <option value="P5.01-04">P5.01-04 - Hörsaal</option>
-      <option value="P5.09">P5.09 - Seminarraum</option>
+      <option value="P2.05L">P2.05 - Seminarraum</option>
+      <option value="P2.06L">P2.06 - Seminarraum</option>
+      <option value="P3.01L">P3.01 - Seminarraum</option>
+      <option value="P3.36L">P3.36 - Seminarraum</option>
+      <option value="P4.08-11L">P4.08-11 - Anatomie</option>
+      <option value="P4.12L">P4.12 - Anatomie</option>
+      <option value="P4.13L">P4.12 - Anatomie</option>
+      <option value="P4.34L">P4.34 - Anatomie</option>
+      <option value="P5.01-04L">P5.01-04 - Hörsaal</option>
+      <option value="P5.09L">P5.09 - Seminarraum</option>
 
     </select>
   </div>
@@ -164,10 +170,10 @@ body.preload {
 </div>
 
 <!-- GRID WRAPPER (NEU) -->
-<div id="room-list">
+<div id="room-list" class="w-full max-w-7.5xl mx-auto px-4">
 
 <!-- Ebene 2 -->
-<div class="w-full max-w-[100%] mx-auto mb-20 level-container" data-level="1">
+<div class="w-full mb-20 level-container" data-level="1">
     <h2 class="text-xl font-semibold text-zinc-100 mb-4">Ebene 2</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
@@ -251,7 +257,7 @@ body.preload {
 </div>
 
 <!-- Ebene 3 -->
-<div class="w-full max-w-[100%] mx-auto mb-20 level-container" data-level="2">
+<div class="w-full mb-20 level-container" data-level="2">
     <h2 class="text-xl font-semibold text-zinc-100 mb-4">Ebene 3</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       
@@ -429,7 +435,7 @@ body.preload {
  </div>
 
  <!-- Ebene 4 -->
-<div class="w-full max-w-[100%] mx-auto mb-20 level-container" data-level="3">
+<div class="w-full mb-20 level-container" data-level="3">
     <h2 class="text-xl font-semibold text-zinc-100 mb-4">Ebene 4</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       
@@ -607,7 +613,7 @@ body.preload {
 </div>
 
      <!-- Ebene 5 -->
-     <div class="w-full max-w-[100%] mx-auto mb-20 level-container" data-level="4">
+     <div class="w-full mb-20 level-container" data-level="4">
      <h2 class="text-xl font-semibold text-zinc-100 mb-4">Ebene 5</h2>
      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       
@@ -652,12 +658,12 @@ body.preload {
   </div>
 
       <!-- Verfügbare Lernräume -->
-     <div class="w-full max-w-[100%] mx-auto mb-20 level-container" data-level="5">
+     <div class="w-full mb-20 level-container" data-level="5">
      <h2 class="text-xl font-semibold text-zinc-100 mb-4">Verfügbare Lernräume</h2>
      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       
     <!-- Raum 1 -->
-      <div class="group relative room-card cursor-pointer">
+      <div class="group relative room-card cursor-pointer "id="P2.05L">
         <div class="
           absolute -inset-0.5 rounded-2xl bg-green-400/50 blur-xl opacity-0 transition group-hover:opacity-100
         "></div>
@@ -676,7 +682,7 @@ body.preload {
       </div>
 
       <!-- Raum 2 -->
-      <div class="group relative room-card cursor-pointer">
+      <div class="group relative room-card cursor-pointer "id="P2.06L">
         <div class="
           absolute -inset-0.5 rounded-2xl bg-green-400/50 blur-xl opacity-0 transition group-hover:opacity-100
         "></div>
@@ -695,7 +701,7 @@ body.preload {
       </div>
 
       <!-- Raum 3 -->
-      <div class="group relative room-card cursor-pointer">
+      <div class="group relative room-card cursor-pointer "id="P3.01L">
         <div class="
           absolute -inset-0.5 rounded-2xl bg-green-400/50 blur-xl opacity-0 transition group-hover:opacity-100
         "></div>
@@ -714,7 +720,7 @@ body.preload {
       </div>
 
       <!-- Raum 4 -->
-      <div class="group relative room-card cursor-pointer">
+      <div class="group relative room-card cursor-pointer "id="P3.36L">
         <div class="
           absolute -inset-0.5 rounded-2xl bg-green-400/50 blur-xl opacity-0 transition group-hover:opacity-100
         "></div>
@@ -733,7 +739,7 @@ body.preload {
       </div>
 
       <!-- Raum 5 -->
-      <div class="group relative room-card cursor-pointer">
+      <div class="group relative room-card cursor-pointer "id="P4.08-11L">
         <div class="
           absolute -inset-0.5 rounded-2xl bg-green-400/50 blur-xl opacity-0 transition group-hover:opacity-100
         "></div>
@@ -752,7 +758,7 @@ body.preload {
       </div>
 
       <!-- Raum 6 -->
-      <div class="group relative room-card cursor-pointer">
+      <div class="group relative room-card cursor-pointer "id="P4.12L">
         <div class="
           absolute -inset-0.5 rounded-2xl bg-green-400/50 blur-xl opacity-0 transition group-hover:opacity-100
         "></div>
@@ -771,7 +777,7 @@ body.preload {
       </div>
 
       <!-- Raum 7 -->
-      <div class="group relative room-card cursor-pointer">
+      <div class="group relative room-card cursor-pointer "id="P4.13L">
         <div class="
           absolute -inset-0.5 rounded-2xl bg-green-400/50 blur-xl opacity-0 transition group-hover:opacity-100
         "></div>
@@ -790,7 +796,7 @@ body.preload {
       </div>
 
       <!-- Raum 8 -->
-      <div class="group relative room-card cursor-pointer">
+      <div class="group relative room-card cursor-pointer "id="P4.34L">
         <div class="
           absolute -inset-0.5 rounded-2xl bg-green-400/50 blur-xl opacity-0 transition group-hover:opacity-100
         "></div>
@@ -809,7 +815,7 @@ body.preload {
       </div>
 
       <!-- Raum 9 -->
-      <div class="group relative room-card cursor-pointer">
+      <div class="group relative room-card cursor-pointer "id="P5.01-04L">
         <div class="
           absolute -inset-0.5 rounded-2xl bg-green-400/50 blur-xl opacity-0 transition group-hover:opacity-100
         "></div>
@@ -828,7 +834,7 @@ body.preload {
       </div>
       
       <!-- Raum 10 -->
-      <div class="group relative room-card cursor-pointer">
+      <div class="group relative room-card cursor-pointer "id="P5.09L">
         <div class="
           absolute -inset-0.5 rounded-2xl bg-green-400/50 blur-xl opacity-0 transition group-hover:opacity-100
         "></div>
