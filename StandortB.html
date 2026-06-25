@@ -18,6 +18,12 @@
     tailwind.config = {
       theme: {
         extend: {
+           width: {
+          '7.5xl': '1920px', // 84rem
+        },
+        maxWidth: {
+          '7.5xl': '1920px',
+        },
           fontFamily: {
             sans: ['Inter', 'system-ui', 'sans-serif'],
           }
@@ -121,10 +127,10 @@ body.preload {
 </div>
 
 <!-- GRID WRAPPER-->
-<div id="room-list">
+<div id="room-list" class="w-full max-w-7.5xl mx-auto px-4">
 
 <!-- Ebene 1 -->
-<div class="w-full max-w-[100%] mx-auto mb-20 level-container" data-level="1">
+<div class="w-full mb-20 level-container" data-level="1">
     <h2 class="text-xl font-semibold text-zinc-100 mb-4">Anger 66</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
@@ -207,7 +213,7 @@ body.preload {
 </div>
 
 <!-- Kaufmännerstraße 3 -->
-<div class="w-full max-w-[100%] mx-auto mb-20 level-container" data-level="2">
+<div class="w-full mb-20 level-container" data-level="2">
     <h2 class="text-xl font-semibold text-zinc-100 mb-4">Kaufmännerstraße 3</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       
