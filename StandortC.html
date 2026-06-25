@@ -18,6 +18,12 @@
     tailwind.config = {
       theme: {
         extend: {
+           width: {
+          '7.5xl': '1920px', // 84rem
+        },
+        maxWidth: {
+          '7.5xl': '1920px',
+        },
           fontFamily: {
             sans: ['Inter', 'system-ui', 'sans-serif'],
           }
@@ -108,7 +114,7 @@ body.preload {
 </div>
 
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div class="w-full max-w-7.5xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
       <!-- Raum 1 -->
       <div class="group relative room-card cursor-pointer "id="V01/02">
@@ -199,176 +205,261 @@ body.preload {
 <!-- JS Script-->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+
   const cards = document.querySelectorAll(".room-card");
-  const roomList = document.querySelector("main > div.grid"); // Grid direkt
-  const roomDetail = document.createElement("div"); // Einzelansicht Container
+  const roomList = document.querySelector("main > div.grid");
+  const roomDetail = document.createElement("div");
   const backButton = document.getElementById("back-button");
   const filter = document.getElementById("room-filter");
   const body = document.body;
 
-  // Einzelansicht Container anhängen
   roomDetail.id = "room-detail";
-  roomDetail.classList.add("hidden", "w-full", "max-w-4xl", "mx-auto", "mb-16", "flex", "justify-center");
+  roomDetail.classList.add(
+    "hidden",
+    "w-full",
+    "max-w-4xl",
+    "mx-auto",
+    "mb-16",
+    "flex",
+    "justify-center"
+  );
+
   document.querySelector("main").appendChild(roomDetail);
 
-/*FUNKTION: Karte als Einzelansicht zeigen*/
-  function showCard(card, delay = 300) {
+  /* -------------------------------- */
+  /* DETAIL CARD (wie A/B)            */
+  /* -------------------------------- */
 
-    history.replaceState(null, "", "#" + card.id);
+  function createDetailCard(card) {
 
-    // Grid fade-out nur bei normalem Klick
-    if (delay !== 0 && !roomList.classList.contains("hidden")) {
-      roomList.classList.add("fade-out");
+    const clone = card.cloneNode(true);
+
+    clone.classList.remove("cursor-pointer");
+    clone.classList.add(
+      "w-full",
+      "max-w-sm",
+      "mx-auto"
+    );
+
+    const glow = clone.querySelector("div.absolute");
+
+    if (glow) {
+      glow.classList.remove(
+        "opacity-0",
+        "group-hover:opacity-100"
+      );
+
+      glow.classList.add("opacity-80");
+
+      glow.classList.remove("-inset-0.5");
+      glow.classList.add("-inset-1");
     }
 
+    return clone;
+  }
+
+  /* -------------------------------- */
+  /* GRID -> DETAIL                   */
+  /* -------------------------------- */
+
+  function showCard(card, delay = 300) {
+
+    history.replaceState(
+      null,
+      "",
+      "#" + card.id
+    );
+
+    const switchingOnly =
+      roomList.classList.contains("hidden") &&
+      roomDetail.children.length > 0;
+
+    if (switchingOnly) {
+
+      roomDetail.classList.add("fade-out");
+
+      setTimeout(() => {
+
+        roomDetail.classList.remove("fade-out");
+        roomDetail.innerHTML = "";
+
+        const detailCard =
+          createDetailCard(card);
+
+        roomDetail.appendChild(detailCard);
+
+        roomDetail.classList.add("fade-in");
+
+        setTimeout(() => {
+          roomDetail.classList.remove("fade-in");
+        }, 300);
+
+      }, 300);
+
+      return;
+    }
+
+    roomList.classList.add("fade-out");
+
     setTimeout(() => {
-      if (delay !== 0) roomList.classList.add("hidden");
+
+      roomList.classList.add("hidden");
       roomList.classList.remove("fade-out");
 
       roomDetail.innerHTML = "";
-      const clone = card.cloneNode(true);
-      clone.classList.add("mx-auto", "max-w-md", "flex", "justify-center");
 
-      // Glow dauerhaft sichtbar
-      const glow = clone.querySelector("div.absolute");
-      if (glow) {
-        glow.classList.remove("opacity-0", "group-hover:opacity-100");
-        glow.classList.add("opacity-80");
-      }
+      const detailCard =
+        createDetailCard(card);
 
-      roomDetail.appendChild(clone);
+      roomDetail.appendChild(detailCard);
 
-      // Einzelkarte fade-in
       roomDetail.classList.remove("hidden");
       roomDetail.classList.add("fade-in");
-      setTimeout(() => roomDetail.classList.remove("fade-in"), 300);
+
+      setTimeout(() => {
+        roomDetail.classList.remove("fade-in");
+      }, 300);
+
     }, delay);
   }
 
-/*FILTER*/
+  /* -------------------------------- */
+  /* CARD CLICK                       */
+  /* -------------------------------- */
+
+  cards.forEach(card => {
+
+    card.addEventListener("click", () => {
+
+      showCard(card);
+
+      filter.value = card.id;
+
+    });
+
+  });
+
+  /* -------------------------------- */
+  /* FILTER                           */
+  /* -------------------------------- */
+
   filter.addEventListener("change", () => {
-  const value = filter.value;
 
-/*ALLE RÄUME → GRID*/
-  if (value === "") {
-    if (!roomDetail.classList.contains("hidden")) {
-      roomDetail.classList.add("fade-out");
-      setTimeout(() => {
-        roomDetail.classList.add("hidden");
-        roomDetail.classList.remove("fade-out");
+    const value = filter.value;
 
-        roomList.classList.remove("hidden");
-        roomList.classList.add("fade-in");
-        setTimeout(() => roomList.classList.remove("fade-in"), 300);
-      }, 300);
-    }
-    return;
-  }
+    if (value === "") {
 
-  const card = document.getElementById(value);
-  if (!card) return;
+      if (
+        !roomDetail.classList.contains("hidden")
+      ) {
 
-  const alreadyInDetail = !roomDetail.classList.contains("hidden");
+        roomDetail.classList.add("fade-out");
 
-/*EINZELANSICHT → EINZELANSICHT*/
-  if (alreadyInDetail) {
-    roomDetail.classList.add("fade-out");
+        setTimeout(() => {
 
-    setTimeout(() => {
-      roomDetail.classList.remove("fade-out");
-      roomDetail.innerHTML = "";
+          roomDetail.classList.add("hidden");
+          roomDetail.classList.remove("fade-out");
 
-      const clone = card.cloneNode(true);
-      clone.classList.add("mx-auto", "max-w-md", "flex", "justify-center");
+          roomList.classList.remove("hidden");
+          roomList.classList.add("fade-in");
 
-      const glow = clone.querySelector("div.absolute");
-      if (glow) {
-        glow.classList.remove("opacity-0", "group-hover:opacity-100");
-        glow.classList.add("opacity-50");
+          setTimeout(() => {
+            roomList.classList.remove("fade-in");
+          }, 300);
+
+        }, 300);
       }
 
-      roomDetail.appendChild(clone);
-      roomDetail.classList.add("fade-in");
-      setTimeout(() => roomDetail.classList.remove("fade-in"), 300);
-    }, 300);
-
-    return;
-  }
-
-/*GRID → EINZELANSICHT*/
-  roomList.classList.add("fade-out");
-
-  setTimeout(() => {
-    roomList.classList.add("hidden");
-    roomList.classList.remove("fade-out");
-
-    roomDetail.innerHTML = "";
-    const clone = card.cloneNode(true);
-    clone.classList.add("mx-auto", "max-w-md", "flex", "justify-center");
-
-    const glow = clone.querySelector("div.absolute");
-    if (glow) {
-      glow.classList.remove("opacity-0", "group-hover:opacity-100");
-      glow.classList.add("opacity-50");
+      return;
     }
 
-    roomDetail.appendChild(clone);
-    roomDetail.classList.remove("hidden");
-    roomDetail.classList.add("fade-in");
-    setTimeout(() => roomDetail.classList.remove("fade-in"), 300);
-  }, 300);
-});
+    const card =
+      document.getElementById(value);
 
-/*RAUM → EINZELANSICHT*/
-  cards.forEach(card => {
-    card.addEventListener("click", () => {
-      showCard(card, 300);
-      filter.value = card.id;
-    });
+    if (!card) return;
+
+    showCard(card);
+
   });
 
-/*ZURÜCK → GRID ODER INDEX*/
+  /* -------------------------------- */
+  /* ZURÜCK BUTTON                    */
+  /* -------------------------------- */
+
   backButton.addEventListener("click", e => {
-    // Einzelansicht → Grid
-    if (!roomDetail.classList.contains("hidden")) {
+
+    if (
+      !roomDetail.classList.contains("hidden")
+    ) {
+
       e.preventDefault();
+
       roomDetail.classList.add("fade-out");
+
       setTimeout(() => {
+
         roomDetail.classList.add("hidden");
         roomDetail.classList.remove("fade-out");
 
         roomList.classList.remove("hidden");
         roomList.classList.add("fade-in");
-        setTimeout(() => roomList.classList.remove("fade-in"), 300);
+
+        setTimeout(() => {
+          roomList.classList.remove("fade-in");
+        }, 300);
 
         filter.value = "";
+
       }, 300);
-    } else {
-      // Wirklich zurück zur Index
-      e.preventDefault();
-      body.classList.add("fadeOutPage");
-      setTimeout(() => window.location.href = backButton.href, 300);
+
+      return;
     }
+
+    e.preventDefault();
+
+    body.classList.add("fadeOutPage");
+
+    setTimeout(() => {
+      window.location.href = backButton.href;
+    }, 300);
+
   });
 
-/*HASH / SEARCHBAR*/
-  const hash = window.location.hash.replace("#", "");
+  /* -------------------------------- */
+  /* HASH                             */
+  /* -------------------------------- */
+
+  const hash =
+    window.location.hash.replace("#", "");
+
   if (hash) {
-    const card = document.getElementById(hash);
+
+    const card =
+      document.getElementById(hash);
+
     if (card) {
+
       roomList.classList.add("hidden");
+
       body.classList.remove("preload");
       body.style.opacity = 1;
 
       showCard(card, 50);
+
       filter.value = hash;
     }
+
   } else {
+
     setTimeout(() => {
+
       body.classList.remove("preload");
       body.classList.add("fade-in");
+
     }, 50);
+
   }
+
 });
 </script>
 </html>
