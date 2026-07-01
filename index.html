@@ -6,12 +6,12 @@
 
   <title>Standorte HMU</title>
 
-  <!-- Google Font -->
+  <!--Google Font--> 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Tailwind CDN -->
+  <!--Tailwind CDN--> 
   <script src="https://cdn.tailwindcss.com"></script>
 
   <script>
@@ -26,7 +26,10 @@
     }
   </script>
 
+<!--===============================-->
 <!--Fade in / out Animation-->
+<!--===============================-->
+
   <style>
   @keyframes fadeOutPage {
     from { opacity: 1; }
@@ -61,7 +64,10 @@
 
 <body class="min-h-screen text-zinc-100 font-sans bg-[oklch(16%_0.042_265.755)] flex flex-col">
 
-  <!-- Header -->
+<!--===============================-->
+<!--Header -->
+<!--===============================-->
+
   <header class="px-8 py-6 border-b border-white/0">
     <h1 class="text-2xl font-semibold tracking-tight">
       HMU-Erfurt Raumbelegung 
@@ -72,11 +78,13 @@
   </header>
 
 
+<!--===============================-->
+<!--Main-->
+<!--===============================-->
 
-  <!-- Main -->
   <main class="p-8 flex-1 flex flex-col items-center">
 
-<!-- Searchbar Container -->
+<!--Searchbar Container-->
 <div class="search-container w-full max-w-md mb-12">   
   <input 
       type="text" 
@@ -84,18 +92,18 @@
       class="w-full pl-10 pr-4 py-3 rounded-xl bg-[oklch(25%_0.041_260.031)] shadow-lg shadow-black/50 border border-white/10 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
       id="room-search">
   
-      <!-- Icon Lupe -->
+      <!--Icon Lupe--> 
       <span class="absolute inset-y-0 left-3 flex items-center pointer-events-none">
         🔍
       </span>
 
-  <!-- Suchergebnisse Dropdown -->
+  <!--Suchergebnisse Dropdown -->
   <div 
     id="search-results" 
     class="absolute top-full left-0 w-full bg-zinc-800 rounded-b-xl hidden shadow-lg z-50">
   </div>
 
-  <!-- Kein-Raum-Gefunden Meldung -->
+  <!--Kein-Raum-Gefunden Meldung -->
   <div 
     id="search-message" 
     class="hidden font-semibold px-2 py-1">
@@ -104,11 +112,13 @@
 </div>
 
 
+<!--=====================================-->
+<!--Standort-Buttons horizontal zentriert-->
+<!--=====================================-->
 
-  <!-- Standort-Buttons horizontal zentriert -->
   <div class="flex flex-wrap justify-center gap-6 w-full max-w-6xl">
 
-    <!-- Standort A -->
+    <!--Standort A -->
     <a href="StandortA.html" class="group relative w-64">
       <div class="absolute -inset-0.5 rounded-2xl bg-cyan-400/50 blur-xl opacity-0 transition group-hover:opacity-100"></div>
       <div class="relative bg-[oklch(25%_0.041_260.031)] rounded-2xl p-6 border border-white/5 shadow-lg shadow-black/50 
@@ -119,7 +129,7 @@
       </div>
     </a>
 
-    <!-- Standort B -->
+    <!--Standort B -->
     <a href="StandortB.html" class="group relative w-64">
       <div class="absolute -inset-0.5 rounded-2xl bg-cyan-400/50 blur-xl opacity-0 transition group-hover:opacity-100"></div>
       <div class="relative bg-[oklch(25%_0.041_260.031)] rounded-2xl p-6 border border-white/5 shadow-lg shadow-black/50 
@@ -130,7 +140,7 @@
       </div>
     </a>
 
-    <!-- Standort C -->
+    <!--Standort C -->
     <a href="StandortC.html" class="group relative w-64">
       <div class="absolute -inset-0.5 rounded-2xl bg-cyan-400/50 blur-xl opacity-0 transition group-hover:opacity-100"></div>
       <div class="relative bg-[oklch(25%_0.041_260.031)] rounded-2xl p-6 border border-white/5 shadow-lg shadow-black/50 
@@ -144,22 +154,26 @@
 </main>
 
 
+<!--===============================-->
+<!--Footer-->
+<!--===============================-->
 
-  <!-- Footer -->
   <footer class="bg-[oklch(16%_0.042_265.755)] border-t border-white/0 py-6 text-center">
     <img src="images/HMU_Logo.png" alt="Logo" class="mx-auto h-10 w-auto">
     <p class="text-zinc-400 text-sm mt-2">Powered by Trainex</p>
   </footer>
 
+<!--===============================-->
+<!--Js Script-->
+<!--===============================-->
 
-<!-- Js Script -->
 <script>
     document.addEventListener("DOMContentLoaded", () => {
       const body = document.body;
       const input = document.getElementById("room-search");
       const resultsBox = document.getElementById("search-results");
 
-// Hier Meldung-Container anlegen, falls noch nicht vorhanden
+/* Hier Meldung-Container anlegen, falls noch nicht vorhanden */
   let messageBox = document.getElementById("search-message");
   if (!messageBox) {
     messageBox = document.createElement("div");
@@ -170,7 +184,7 @@
 
       const rooms = [
       
-      //Standort A
+      /* Standort A */
         { name: "P2.04", label: "P2.04", target: "StandortA.html#P2.04"},
         { name: "P2.05", label: "P2.05", target: "StandortA.html#P2.05"},
         { name: "P2.06", label: "P2.06", target: "StandortA.html#P2.06"},
@@ -201,7 +215,7 @@
         { name: "P5.09", label: "P5.09", target: "StandortA.html#P5.09"},
 
 
-      //Standort B
+      /* Standort B */
         { name: "AP2.08", label: "AP2.08", target: "StandortB.html#AP2.08"},
         { name: "AP2.09", label: "AP2.09", target: "StandortB.html#AP2.09"},
         { name: "AP2.12", label: "AP2.12", target: "StandortB.html#AP2.12"},
@@ -212,14 +226,14 @@
         { name: "KM2.04", label: "KM2.04", target: "StandortB.html#KM2.04"},
         { name: "KM2.08", label: "KM2.08", target: "StandortB.html#KM2.08"},
 
-        //Standort C
+        /* Standort C */
         { name: "V01/02", label: "V01/02", target: "StandortC.html#V01/02"},
         { name: "V04", label: "V04", target: "StandortC.html#V04"},
         { name: "V1.4", label: "V01.4", target: "StandortC.html#V1.4"},
         { name: "V1.5", label: "V1.5", target: "StandortC.html#V1.5"}
       ];
 
-      // 🔍 Suche
+      /* 🔍 Suche */
       input.addEventListener("input", () => {
         const query = input.value.toLowerCase();
         resultsBox.innerHTML = "";
@@ -227,7 +241,7 @@
         messageBox.style.display = "none"; // Meldung sofort verstecken bei neuem Input
 
         if (!query) {
-        // Wenn Input leer ist, nichts anzeigen und Meldung verstecken
+        /* Wenn Input leer ist, nichts anzeigen und Meldung verstecken */
         return;
         }
 
@@ -241,7 +255,7 @@
           return;
           }
 
-        // Treffer vorhanden → Meldung verstecken
+        /* Treffer vorhanden → Meldung verstecken */
         messageBox.style.display = "none";
 
         resultsBox.classList.remove("hidden");
@@ -262,7 +276,7 @@
         });
       });
 
-      // ⏎ Enter → erster Treffer
+      /* Enter → erster Treffer */
       input.addEventListener("keydown", e => {
         if (e.key === "Enter") {
           const first = resultsBox.querySelector("div");
@@ -270,7 +284,7 @@
         }
       });
 
-      // Standort Fade-Out
+      /* Standort Fade-Out */
       document.querySelectorAll("a.group").forEach(link => {
         link.addEventListener("click", e => {
           e.preventDefault();
