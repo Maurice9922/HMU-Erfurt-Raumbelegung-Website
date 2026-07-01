@@ -1,4 +1,6 @@
-/*JS Script*/
+// ===============================
+// JS Script
+// ===============================
 
 document.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".room-card");
@@ -11,29 +13,32 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentLevelFilter = null;
   let lastFilterState = null; // Neue Variable: Speichert den letzten Filterzustand
 
-  /* --- BROWSER BACK BUTTON: 1:1 KOPPLUNG --- */
+// ===============================
+// BROWSER BACK BUTTON: 1:1 KOPPLUNG
+// ===============================
+
   window.addEventListener("popstate", () => {
-    // Wir rufen den manuellen Button auf, aber wir stellen sicher, dass der Zustand korrekt ist
-    // Der Browser-Back-Button hat den Hash bereits entfernt.
-    // Wir müssen also prüfen, ob wir gerade von einer Ebene kamen.
     
-    // Wenn lastFilterState gesetzt ist, war der Nutzer auf einer Ebene.
     if (lastFilterState) {
-      // Wir setzen currentLevelFilter auf den letzten Wert, damit der Button ihn sieht
       currentLevelFilter = lastFilterState;
     } else {
-      // Wenn kein letzter Filter, dann sind wir in der Gesamtansicht oder im Grid.
       currentLevelFilter = null;
     }
     
     backButton.click();
   });
 
-  // Konfiguration
+// ===============================
+// Konfiguration
+// ===============================
+
   const MAX_BOOKINGS_DETAIL = 7;
   const MIN_DISPLAY = 2;
 
-/*HELPER: EBENEN MIT FADE*/
+// ===============================
+// HELPER: EBENEN MIT FADE
+// ===============================
+
   function fadeSwitchLevels(callback) {
     roomList.classList.add("fade-out");
 
@@ -58,7 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-/*ZURÜCK ZUM GRID*/
+// ===============================
+// ZURÜCK ZUM GRID
+// ===============================
+
   function backToGrid() {
     roomDetail.classList.add("fade-out");
 
@@ -82,7 +90,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 300);
   }
 
-/* DETAIL CARD ERZEUGEN */
+// ===============================
+// DETAIL CARD ERZEUGEN 
+// ===============================
+
   function createDetailCard(card) {
     const clone = card.cloneNode(true);
     clone.classList.remove("cursor-pointer");
@@ -102,7 +113,10 @@ document.addEventListener("DOMContentLoaded", () => {
     return clone;
   }
 
-/* EINZELANSICHT */
+// ===============================
+// EINZELANSICHT 
+// ===============================
+
   function showCard(card, delay = 300) {
     history.pushState(null, "", "#" + card.id);
     const switchingOnly = roomList.classList.contains("hidden") && roomDetail.children.length > 0;
@@ -143,7 +157,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }, delay);
   }
 
-/*CARD CLICK*/
+// ===============================
+// CARD CLICK 
+// ===============================
+
   cards.forEach(card => {
     card.addEventListener("click", () => {
       showCard(card);
@@ -151,7 +168,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-/*FILTER*/
+// ===============================
+// FILTER 
+// ===============================
+
   filter.addEventListener("change", () => {
     const value = filter.value;
 
@@ -195,20 +215,31 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-/*ZURÜCK BUTTON*/
+// ===============================
+// ZURÜCK BUTTON 
+// ===============================
+
 backButton.addEventListener("click", e => {
   e.preventDefault();
 
   // 1. Detailansicht offen -> Zurück zum Grid
   if (!roomDetail.classList.contains("hidden")) {
     backToGrid();
-    if (currentLevelFilter) {
-      filter.value = "LEVEL_" + currentLevelFilter;
+   if (currentLevelFilter) {
+    history.replaceState(
+        { page: "level" },
+        "",
+        "#LEVEL_" + currentLevelFilter
+    );
     } else {
-      filter.value = "";
+        history.replaceState(
+            { page: "location" },
+            "",
+            window.location.pathname + window.location.search
+        );
     }
-    return;
-  }
+        return;
+      }
 
   // 2. Grid offen, aber gefiltert (Ebene) -> Zurück zur Gesamtansicht
   // Hier prüfen wir jetzt lastFilterState, nicht nur currentLevelFilter
@@ -233,7 +264,10 @@ backButton.addEventListener("click", e => {
   setTimeout(() => window.location.href = backButton.href, 300);
 });
 
-/*HASH / SEARCHBAR (INITIALISIERUNG)*/
+// =====================================
+// HASH / SEARCHBAR (INITIALISIERUNG) 
+// =====================================
+
   const hash = window.location.hash.replace("#", "");
   if (hash) {
     const card = document.getElementById(hash);
@@ -251,12 +285,19 @@ backButton.addEventListener("click", e => {
       lastFilterState = null; // Raum = kein Ebenen-Filter
     } 
     else if (hash.startsWith("LEVEL_")) {
+
       const level = hash.replace("LEVEL_", "");
+
       currentLevelFilter = level;
-      lastFilterState = level; // WICHTIG: Speichern!
+      lastFilterState = level;
+
       filter.value = hash;
-      fadeSwitchLevels(() => showOnlyLevel(level));
-    }
+
+      showOnlyLevel(level);
+
+      body.classList.remove("preload");
+      body.classList.add("fade-in");
+  }
   } else {
     currentLevelFilter = null;
     lastFilterState = null;
@@ -270,9 +311,11 @@ backButton.addEventListener("click", e => {
 });
 
 
-/* Daten import*/
+// ===============================
+// Daten import
+// ===============================
 
-const DATA_URL = "https://raw.githubusercontent.com/Maurice9922/Backend-HMU-Website/refs/heads/main/rooms.json";
+const DATA_URL = "https://raw.githubusercontent.com/Maurice9922/HMU-Erfurt-Raumbelegung-Website/refs/heads/main/rooms.json";
 const MAX_CHARS = 30;
 // Konstanten
 const MAX_BOOKINGS_DETAIL = 7; // Maximal in Detailansicht
@@ -338,6 +381,36 @@ function getStatus(bookings) {
 // ===============================
 // RENDER
 // ===============================
+
+function wrapPersonText(text, maxLength = 30) {
+
+  if (!text) return [""];
+
+  const words = text.split(" ");
+  const lines = [];
+  let currentLine = "";
+
+  words.forEach(word => {
+
+    if ((currentLine + " " + word).trim().length <= maxLength) {
+
+      currentLine = (currentLine + " " + word).trim();
+
+    } else {
+
+      lines.push(currentLine);
+      currentLine = word;
+
+    }
+
+  });
+
+  if (currentLine) {
+    lines.push(currentLine);
+  }
+
+  return lines;
+}
 
 function renderRoom(room, mode = "location") {
   const card = document.getElementById(room.id);
@@ -462,20 +535,20 @@ function renderRoom(room, mode = "location") {
     bookingContainer.appendChild(line1);
 
     // ---- ZEILE 2 ----
-    const line2 = document.createElement("p");
-    line2.className =
-      "text-zinc-400 text-sm leading-5 whitespace-pre pl-2.5" +
-      (!isLast ? " mb-4" : "");
-    
-    if (b && b.person) {
-      line2.textContent = b.person;
-    } else {
-      line2.innerHTML = `<span class="invisible">#</span>`;
-    }
-    
-    bookingContainer.appendChild(line2);
-  });
-}
+      const line2 = document.createElement("p");
+      line2.className =
+        "text-zinc-400 text-sm leading-5 pl-2.5 whitespace-normal break-words overflow-hidden" +
+        (!isLast ? " mb-4" : "");
+
+      if (b && b.person) {
+        line2.textContent = b.person;
+      } else {
+        line2.innerHTML = `<span class="invisible">#</span>`;
+      }
+
+          bookingContainer.appendChild(line2);
+        });
+      }
 
 // ===============================
 // LOAD DATA
@@ -536,9 +609,9 @@ async function loadRoomData() {
 
 document.addEventListener("DOMContentLoaded", loadRoomData);
 
-/* ===============================
-     AUTO-REFRESHER (ALLE 60 SEKUNDEN)
-     =============================== */
+// =================================
+// AUTO-REFRESHER (ALLE 60 SEKUNDEN)
+// =================================
   
   // Konfigurierbare Intervall-Zeit in Millisekunden (60000 = 1 Minute)
   const REFRESH_INTERVAL = 60000;
@@ -616,6 +689,4 @@ document.addEventListener("DOMContentLoaded", loadRoomData);
   // 60000 ms = 1 Minute
   setInterval(refreshRoomData, REFRESH_INTERVAL);
 
-  // Optional: Erster Check sofort nach dem Laden (um Wartezeit zu vermeiden)
-  // Wenn Sie das aktivieren, wird die Seite beim Laden sofort einmal gecheckt.
-  // refreshRoomData();
+  
