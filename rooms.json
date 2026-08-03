@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T01:00:02.383629+02:00",
+  "updatedAt": "2026-08-04T01:00:02.384085+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -169,12 +169,6 @@
       "id": "P3.43",
       "bookings": [
         {
-          "date": "2026-08-03",
-          "start": "09:00",
-          "end": "13:00",
-          "person": "Frau  Markgraf"
-        },
-        {
           "date": "2026-08-04",
           "start": "09:00",
           "end": "13:00",
@@ -185,12 +179,6 @@
     {
       "id": "P4.01-03",
       "bookings": [
-        {
-          "date": "2026-08-03",
-          "start": "09:00",
-          "end": "13:00",
-          "person": "Frau  Worms"
-        },
         {
           "date": "2026-08-04",
           "start": "09:00",
@@ -226,6 +214,12 @@
           "start": "08:00",
           "end": "11:00",
           "person": "Frau  Zeise"
+        },
+        {
+          "date": "2026-10-23",
+          "start": "08:00",
+          "end": "12:30",
+          "person": "Frau  Markgraf"
         }
       ]
     },
@@ -315,6 +309,12 @@
           "start": "08:00",
           "end": "10:00",
           "person": "Frau  Zeise"
+        },
+        {
+          "date": "2026-12-09",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "Frau  HMU EF"
         }
       ]
     },
@@ -356,6 +356,12 @@
           "start": "08:00",
           "end": "10:00",
           "person": "Frau  Zeise"
+        },
+        {
+          "date": "2026-12-09",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "Frau  HMU EF"
         }
       ]
     },
@@ -687,7 +693,14 @@
     },
     {
       "id": "V1.4",
-      "bookings": []
+      "bookings": [
+        {
+          "date": "2026-08-06",
+          "start": "10:00",
+          "end": "12:00",
+          "person": "Frau Isaac"
+        }
+      ]
     },
     {
       "id": "V1.5",
