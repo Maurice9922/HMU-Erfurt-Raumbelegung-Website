@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T01:00:02.384085+02:00",
+  "updatedAt": "2026-08-05T01:00:01.544768+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -29,12 +29,6 @@
       "id": "P3.01",
       "bookings": [
         {
-          "date": "2026-08-04",
-          "start": "10:00",
-          "end": "12:00",
-          "person": "Herr  Müller"
-        },
-        {
           "date": "2026-08-11",
           "start": "16:00",
           "end": "17:00",
@@ -57,12 +51,6 @@
     {
       "id": "P3.01L",
       "bookings": [
-        {
-          "date": "2026-08-04",
-          "start": "10:00",
-          "end": "12:00",
-          "person": "Herr  Müller"
-        },
         {
           "date": "2026-08-11",
           "start": "16:00",
@@ -167,24 +155,11 @@
     },
     {
       "id": "P3.43",
-      "bookings": [
-        {
-          "date": "2026-08-04",
-          "start": "09:00",
-          "end": "13:00",
-          "person": "Frau  Markgraf"
-        }
-      ]
+      "bookings": []
     },
     {
       "id": "P4.01-03",
       "bookings": [
-        {
-          "date": "2026-08-04",
-          "start": "09:00",
-          "end": "13:00",
-          "person": "Frau  Worms"
-        },
         {
           "date": "2026-10-01",
           "start": "08:00",
@@ -220,6 +195,12 @@
           "start": "08:00",
           "end": "12:30",
           "person": "Frau  Markgraf"
+        },
+        {
+          "date": "2026-12-09",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "Frau  HMU EF"
         }
       ]
     },
@@ -275,12 +256,6 @@
       "id": "P5.01-04",
       "bookings": [
         {
-          "date": "2026-08-07",
-          "start": "13:30",
-          "end": "16:30",
-          "person": "Frau  Worms"
-        },
-        {
           "date": "2026-10-01",
           "start": "08:00",
           "end": "12:30",
@@ -321,12 +296,6 @@
     {
       "id": "P5.01-04L",
       "bookings": [
-        {
-          "date": "2026-08-07",
-          "start": "13:30",
-          "end": "16:30",
-          "person": "Frau  Worms"
-        },
         {
           "date": "2026-10-01",
           "start": "08:00",
@@ -377,6 +346,18 @@
       "id": "AP2.08",
       "bookings": [
         {
+          "date": "2026-08-07",
+          "start": "13:30",
+          "end": "16:30",
+          "person": "Frau  Worms"
+        },
+        {
+          "date": "2026-08-20",
+          "start": "13:30",
+          "end": "15:30",
+          "person": "Frau  Dr. Witter"
+        },
+        {
           "date": "2026-09-03",
           "start": "10:00",
           "end": "11:30",
@@ -405,18 +386,6 @@
           "start": "08:00",
           "end": "17:00",
           "person": "Frau  Töpfer"
-        },
-        {
-          "date": "2026-09-18",
-          "start": "08:00",
-          "end": "17:00",
-          "person": "Frau  Töpfer"
-        },
-        {
-          "date": "2026-09-21",
-          "start": "08:00",
-          "end": "17:00",
-          "person": "Frau  Töpfer"
         }
       ]
     },
@@ -424,10 +393,10 @@
       "id": "AP2.09",
       "bookings": [
         {
-          "date": "2026-08-04",
-          "start": "10:00",
-          "end": "14:30",
-          "person": "Frau Dr. Radu"
+          "date": "2026-08-07",
+          "start": "13:30",
+          "end": "16:30",
+          "person": "Frau  Worms"
         },
         {
           "date": "2026-09-14",
