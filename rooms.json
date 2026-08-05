@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T01:00:01.544768+02:00",
+  "updatedAt": "2026-08-06T01:00:01.695355+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -161,6 +161,30 @@
       "id": "P4.01-03",
       "bookings": [
         {
+          "date": "2026-08-13",
+          "start": "09:00",
+          "end": "12:00",
+          "person": "Frau  Worms"
+        },
+        {
+          "date": "2026-08-18",
+          "start": "09:00",
+          "end": "12:00",
+          "person": "Frau  Worms"
+        },
+        {
+          "date": "2026-08-19",
+          "start": "09:00",
+          "end": "12:00",
+          "person": "Frau  Worms"
+        },
+        {
+          "date": "2026-09-21",
+          "start": "09:00",
+          "end": "12:00",
+          "person": "Frau  Worms"
+        },
+        {
           "date": "2026-10-01",
           "start": "08:00",
           "end": "10:30",
@@ -177,30 +201,6 @@
           "start": "08:00",
           "end": "12:30",
           "person": "Frau  Zeise"
-        },
-        {
-          "date": "2026-10-08",
-          "start": "08:00",
-          "end": "11:30",
-          "person": "Frau  Zeise"
-        },
-        {
-          "date": "2026-10-12",
-          "start": "08:00",
-          "end": "11:00",
-          "person": "Frau  Zeise"
-        },
-        {
-          "date": "2026-10-23",
-          "start": "08:00",
-          "end": "12:30",
-          "person": "Frau  Markgraf"
-        },
-        {
-          "date": "2026-12-09",
-          "start": "08:00",
-          "end": "09:30",
-          "person": "Frau  HMU EF"
         }
       ]
     },
@@ -618,6 +618,18 @@
           "start": "07:00",
           "end": "15:00",
           "person": "Frau  Dr. Witter"
+        },
+        {
+          "date": "2026-08-24",
+          "start": "09:00",
+          "end": "12:00",
+          "person": "Frau  Worms"
+        },
+        {
+          "date": "2026-08-28",
+          "start": "09:00",
+          "end": "12:00",
+          "person": "Frau  Worms"
         },
         {
           "date": "2026-09-02",
