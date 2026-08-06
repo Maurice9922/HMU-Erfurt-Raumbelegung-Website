@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T01:00:01.695355+02:00",
+  "updatedAt": "2026-08-07T01:00:01.641886+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -77,7 +77,20 @@
     },
     {
       "id": "P3.07",
-      "bookings": []
+      "bookings": [
+        {
+          "date": "2027-01-13",
+          "start": "09:00",
+          "end": "10:15",
+          "person": "Frau  HMU EF"
+        },
+        {
+          "date": "2027-01-14",
+          "start": "09:15",
+          "end": "10:00",
+          "person": "Frau  HMU EF"
+        }
+      ]
     },
     {
       "id": "P3.08",
@@ -85,7 +98,14 @@
     },
     {
       "id": "P3.11",
-      "bookings": []
+      "bookings": [
+        {
+          "date": "2027-01-18",
+          "start": "09:00",
+          "end": "10:15",
+          "person": "Frau  HMU EF"
+        }
+      ]
     },
     {
       "id": "P3.12",
@@ -290,6 +310,12 @@
           "start": "08:00",
           "end": "09:30",
           "person": "Frau  HMU EF"
+        },
+        {
+          "date": "2027-01-05",
+          "start": "12:00",
+          "end": "15:15",
+          "person": "Frau  HMU EF"
         }
       ]
     },
@@ -330,6 +356,12 @@
           "date": "2026-12-09",
           "start": "08:00",
           "end": "09:30",
+          "person": "Frau  HMU EF"
+        },
+        {
+          "date": "2027-01-05",
+          "start": "12:00",
+          "end": "15:15",
           "person": "Frau  HMU EF"
         }
       ]
@@ -439,12 +471,6 @@
     {
       "id": "AP2.12",
       "bookings": [
-        {
-          "date": "2026-08-06",
-          "start": "18:00",
-          "end": "21:00",
-          "person": "Vath"
-        },
         {
           "date": "2026-09-01",
           "start": "13:00",
@@ -674,14 +700,7 @@
     },
     {
       "id": "V1.4",
-      "bookings": [
-        {
-          "date": "2026-08-06",
-          "start": "10:00",
-          "end": "12:00",
-          "person": "Frau Isaac"
-        }
-      ]
+      "bookings": []
     },
     {
       "id": "V1.5",
