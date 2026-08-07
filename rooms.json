@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T01:00:01.641886+02:00",
+  "updatedAt": "2026-08-08T01:00:01.752157+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -115,6 +115,12 @@
       "id": "P3.36",
       "bookings": [
         {
+          "date": "2026-09-11",
+          "start": "13:00",
+          "end": "14:00",
+          "person": "Frau  Dr. Witter"
+        },
+        {
           "date": "2026-10-05",
           "start": "08:00",
           "end": "12:30",
@@ -143,6 +149,12 @@
     {
       "id": "P3.36L",
       "bookings": [
+        {
+          "date": "2026-09-11",
+          "start": "13:00",
+          "end": "14:00",
+          "person": "Frau  Dr. Witter"
+        },
         {
           "date": "2026-10-05",
           "start": "08:00",
@@ -175,7 +187,14 @@
     },
     {
       "id": "P3.43",
-      "bookings": []
+      "bookings": [
+        {
+          "date": "2026-09-11",
+          "start": "13:00",
+          "end": "14:00",
+          "person": "Frau  Dr. Witter"
+        }
+      ]
     },
     {
       "id": "P4.01-03",
@@ -378,12 +397,6 @@
       "id": "AP2.08",
       "bookings": [
         {
-          "date": "2026-08-07",
-          "start": "13:30",
-          "end": "16:30",
-          "person": "Frau  Worms"
-        },
-        {
           "date": "2026-08-20",
           "start": "13:30",
           "end": "15:30",
@@ -418,18 +431,18 @@
           "start": "08:00",
           "end": "17:00",
           "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-09-18",
+          "start": "08:00",
+          "end": "17:00",
+          "person": "Frau  Töpfer"
         }
       ]
     },
     {
       "id": "AP2.09",
       "bookings": [
-        {
-          "date": "2026-08-07",
-          "start": "13:30",
-          "end": "16:30",
-          "person": "Frau  Worms"
-        },
         {
           "date": "2026-09-14",
           "start": "08:00",
@@ -462,6 +475,12 @@
         },
         {
           "date": "2026-09-21",
+          "start": "08:00",
+          "end": "17:00",
+          "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-09-22",
           "start": "08:00",
           "end": "17:00",
           "person": "Frau  Töpfer"
