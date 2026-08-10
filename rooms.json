@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T01:00:02.235635+02:00",
+  "updatedAt": "2026-08-11T01:00:01.497412+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -109,7 +109,50 @@
     },
     {
       "id": "P3.12",
-      "bookings": []
+      "bookings": [
+        {
+          "date": "2026-11-09",
+          "start": "08:00",
+          "end": "10:15",
+          "person": "HMUEF Klinik S24-P-1a"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "10:45",
+          "end": "13:00",
+          "person": "HMUEF Klinik S24-P-1b"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "13:45",
+          "end": "16:00",
+          "person": "HMUEF Klinik S24-P-2a"
+        },
+        {
+          "date": "2026-11-10",
+          "start": "08:00",
+          "end": "10:15",
+          "person": "HMUEF Klinik S24-P-2b"
+        },
+        {
+          "date": "2026-11-10",
+          "start": "10:45",
+          "end": "13:00",
+          "person": "HMUEF Klinik S24-P-3a"
+        },
+        {
+          "date": "2026-11-10",
+          "start": "13:45",
+          "end": "16:00",
+          "person": "HMUEF Klinik S24-P-3b"
+        },
+        {
+          "date": "2026-11-26",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "HMUEF Klinik W24-P-2a"
+        }
+      ]
     },
     {
       "id": "P3.36",
@@ -269,11 +312,91 @@
     },
     {
       "id": "P4.31",
-      "bookings": []
+      "bookings": [
+        {
+          "date": "2026-11-02",
+          "start": "14:00",
+          "end": "16:15",
+          "person": "HMUEF Klinik S24-P-2b"
+        },
+        {
+          "date": "2026-11-03",
+          "start": "10:30",
+          "end": "12:45",
+          "person": "HMUEF Klinik S24-P-1a"
+        },
+        {
+          "date": "2026-11-03",
+          "start": "14:00",
+          "end": "16:15",
+          "person": "HMUEF Klinik S24-P-2a"
+        },
+        {
+          "date": "2026-11-09",
+          "start": "08:00",
+          "end": "10:15",
+          "person": "HMUEF Klinik S24-P-1b"
+        },
+        {
+          "date": "2026-11-16",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "HMUEF Klinik S24-P-3b"
+        },
+        {
+          "date": "2026-11-16",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "HMUEF Klinik S24-P-1a"
+        },
+        {
+          "date": "2026-11-17",
+          "start": "16:00",
+          "end": "17:30",
+          "person": "HMUEF Klinik S24-P-2a"
+        }
+      ]
     },
     {
       "id": "P4.32",
-      "bookings": []
+      "bookings": [
+        {
+          "date": "2027-01-04",
+          "start": "08:00",
+          "end": "10:15",
+          "person": "HMUEF Klinik S24-P-1a"
+        },
+        {
+          "date": "2027-01-04",
+          "start": "10:45",
+          "end": "13:00",
+          "person": "HMUEF Klinik S24-P-1b"
+        },
+        {
+          "date": "2027-01-04",
+          "start": "13:45",
+          "end": "16:00",
+          "person": "HMUEF Klinik S24-P-2a"
+        },
+        {
+          "date": "2027-01-05",
+          "start": "08:00",
+          "end": "10:15",
+          "person": "HMUEF Klinik S24-P-2b"
+        },
+        {
+          "date": "2027-01-05",
+          "start": "10:45",
+          "end": "13:00",
+          "person": "HMUEF Klinik S24-P-3a"
+        },
+        {
+          "date": "2027-01-06",
+          "start": "08:00",
+          "end": "10:15",
+          "person": "HMUEF Klinik S24-P-3b"
+        }
+      ]
     },
     {
       "id": "P4.34",
@@ -501,6 +624,36 @@
           "start": "07:00",
           "end": "15:00",
           "person": "Frau  Drzewicki"
+        },
+        {
+          "date": "2026-11-05",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "HMUEF Klinik S24 UaK-11"
+        },
+        {
+          "date": "2026-11-05",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "HMUEF Klinik S24 UaK-12"
+        },
+        {
+          "date": "2026-11-05",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "HMUEF Klinik S24 UaK-11"
+        },
+        {
+          "date": "2026-11-05",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "HMUEF Klinik S24 UaK-12"
+        },
+        {
+          "date": "2026-11-05",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "HMUEF Klinik S24 UaK-11"
         }
       ]
     },
@@ -681,6 +834,18 @@
           "start": "16:00",
           "end": "21:00",
           "person": "Herr Prof. Dr. Steiner"
+        },
+        {
+          "date": "2026-09-29",
+          "start": "07:00",
+          "end": "22:00",
+          "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "07:00",
+          "end": "15:00",
+          "person": "Frau  Töpfer"
         }
       ]
     },
@@ -704,6 +869,12 @@
           "start": "10:00",
           "end": "11:30",
           "person": "Frau  Drzewicki"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "07:00",
+          "end": "14:00",
+          "person": "Frau  Töpfer"
         },
         {
           "date": "2026-10-01",
