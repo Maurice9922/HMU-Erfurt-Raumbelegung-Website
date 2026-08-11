@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T01:00:01.497412+02:00",
+  "updatedAt": "2026-08-12T01:00:01.747949+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -29,12 +29,6 @@
       "id": "P3.01",
       "bookings": [
         {
-          "date": "2026-08-11",
-          "start": "16:00",
-          "end": "17:00",
-          "person": "Herr  Müller"
-        },
-        {
           "date": "2026-09-10",
           "start": "10:00",
           "end": "11:00",
@@ -51,12 +45,6 @@
     {
       "id": "P3.01L",
       "bookings": [
-        {
-          "date": "2026-08-11",
-          "start": "16:00",
-          "end": "17:00",
-          "person": "Herr  Müller"
-        },
         {
           "date": "2026-09-10",
           "start": "10:00",
@@ -724,6 +712,12 @@
           "person": "Frau  Drzewicki"
         },
         {
+          "date": "2026-09-02",
+          "start": "12:00",
+          "end": "12:30",
+          "person": "Frau  Drzewicki"
+        },
+        {
           "date": "2026-09-04",
           "start": "10:00",
           "end": "11:30",
@@ -743,12 +737,6 @@
         },
         {
           "date": "2026-09-11",
-          "start": "10:00",
-          "end": "11:30",
-          "person": "Frau  Drzewicki"
-        },
-        {
-          "date": "2026-09-14",
           "start": "10:00",
           "end": "11:30",
           "person": "Frau  Drzewicki"
