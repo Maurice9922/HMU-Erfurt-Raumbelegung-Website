@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T01:00:01.529491+02:00",
+  "updatedAt": "2026-08-15T01:00:01.871950+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -124,20 +124,20 @@
         },
         {
           "date": "2026-11-10",
-          "start": "10:45",
-          "end": "13:00",
+          "start": "11:30",
+          "end": "13:45",
           "person": "HMUEF Klinik S24-P-3a"
-        },
-        {
-          "date": "2026-11-10",
-          "start": "13:45",
-          "end": "16:00",
-          "person": "HMUEF Klinik S24-P-3b"
         },
         {
           "date": "2026-11-26",
           "start": "08:00",
           "end": "09:30",
+          "person": "HMUEF Klinik W24-P-2a"
+        },
+        {
+          "date": "2026-11-26",
+          "start": "09:30",
+          "end": "11:00",
           "person": "HMUEF Klinik W24-P-2a"
         }
       ]
@@ -651,6 +651,24 @@
           "person": "Frau  Drzewicki"
         },
         {
+          "date": "2026-11-02",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "HMUEF Klinik S24 UaK-07"
+        },
+        {
+          "date": "2026-11-02",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "HMUEF Klinik S24 UaK-07"
+        },
+        {
+          "date": "2026-11-02",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "HMUEF Klinik S24 UaK-07"
+        },
+        {
           "date": "2026-11-04",
           "start": "13:45",
           "end": "15:15",
@@ -660,12 +678,6 @@
           "date": "2026-11-04",
           "start": "15:30",
           "end": "17:00",
-          "person": "HMUEF Klinik S24 UaK-12"
-        },
-        {
-          "date": "2026-11-04",
-          "start": "17:15",
-          "end": "18:45",
           "person": "HMUEF Klinik S24 UaK-12"
         }
       ]
