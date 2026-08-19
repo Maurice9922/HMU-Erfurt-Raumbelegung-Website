@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T01:00:02.364979+02:00",
+  "updatedAt": "2026-08-20T01:00:02.011520+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -231,12 +231,6 @@
       "id": "P4.01-03",
       "bookings": [
         {
-          "date": "2026-08-19",
-          "start": "09:00",
-          "end": "12:00",
-          "person": "Frau  Worms"
-        },
-        {
           "date": "2026-09-21",
           "start": "09:00",
           "end": "12:00",
@@ -271,6 +265,12 @@
           "start": "08:00",
           "end": "11:30",
           "person": "Frau  Zeise"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "08:00",
+          "end": "11:00",
+          "person": "Frau  Zeise"
         }
       ]
     },
@@ -292,11 +292,25 @@
     },
     {
       "id": "P4.13",
-      "bookings": []
+      "bookings": [
+        {
+          "date": "2026-08-26",
+          "start": "08:00",
+          "end": "16:00",
+          "person": "Frau  Khvasta"
+        }
+      ]
     },
     {
       "id": "P4.13L",
-      "bookings": []
+      "bookings": [
+        {
+          "date": "2026-08-26",
+          "start": "08:00",
+          "end": "16:00",
+          "person": "Frau  Khvasta"
+        }
+      ]
     },
     {
       "id": "P4.31",
@@ -698,12 +712,6 @@
       "id": "KM2.01",
       "bookings": [
         {
-          "date": "2026-08-19",
-          "start": "07:00",
-          "end": "15:00",
-          "person": "Frau  Dr. Witter"
-        },
-        {
           "date": "2026-09-02",
           "start": "16:00",
           "end": "21:00",
@@ -738,18 +746,18 @@
           "start": "08:00",
           "end": "17:00",
           "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-09-21",
+          "start": "08:00",
+          "end": "17:00",
+          "person": "Frau  Töpfer"
         }
       ]
     },
     {
       "id": "KM2.02-03",
       "bookings": [
-        {
-          "date": "2026-08-19",
-          "start": "07:00",
-          "end": "15:00",
-          "person": "Frau  Martin"
-        },
         {
           "date": "2026-09-01",
           "start": "10:00",
@@ -785,18 +793,18 @@
           "start": "10:00",
           "end": "11:30",
           "person": "Frau  Drzewicki"
+        },
+        {
+          "date": "2026-09-11",
+          "start": "10:00",
+          "end": "11:30",
+          "person": "Frau  Drzewicki"
         }
       ]
     },
     {
       "id": "KM2.04",
       "bookings": [
-        {
-          "date": "2026-08-19",
-          "start": "07:00",
-          "end": "15:00",
-          "person": "Frau  Dr. Witter"
-        },
         {
           "date": "2026-09-18",
           "start": "09:45",
@@ -832,18 +840,18 @@
           "start": "07:00",
           "end": "22:00",
           "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "07:00",
+          "end": "12:00",
+          "person": "Frau  Töpfer"
         }
       ]
     },
     {
       "id": "KM2.08",
       "bookings": [
-        {
-          "date": "2026-08-19",
-          "start": "07:00",
-          "end": "15:00",
-          "person": "Frau  Dr. Witter"
-        },
         {
           "date": "2026-08-24",
           "start": "09:00",
@@ -878,6 +886,12 @@
           "date": "2026-09-30",
           "start": "15:00",
           "end": "17:00",
+          "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "07:00",
+          "end": "15:00",
           "person": "Frau  Töpfer"
         }
       ]
