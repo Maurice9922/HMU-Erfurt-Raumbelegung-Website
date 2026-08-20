@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T01:00:02.011520+02:00",
+  "updatedAt": "2026-08-21T01:00:01.528491+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -567,12 +567,6 @@
       "id": "AP2.08",
       "bookings": [
         {
-          "date": "2026-08-20",
-          "start": "13:30",
-          "end": "15:30",
-          "person": "Frau  Dr. Witter"
-        },
-        {
           "date": "2026-09-03",
           "start": "10:00",
           "end": "11:30",
@@ -604,6 +598,12 @@
         },
         {
           "date": "2026-09-18",
+          "start": "08:00",
+          "end": "17:00",
+          "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-09-21",
           "start": "08:00",
           "end": "17:00",
           "person": "Frau  Töpfer"
@@ -673,6 +673,12 @@
           "person": "Frau  Drzewicki"
         },
         {
+          "date": "2026-09-30",
+          "start": "18:00",
+          "end": "23:00",
+          "person": "Frau  Khvasta"
+        },
+        {
           "date": "2026-11-02",
           "start": "08:00",
           "end": "09:30",
@@ -694,12 +700,6 @@
           "date": "2026-11-04",
           "start": "13:45",
           "end": "15:15",
-          "person": "HMUEF Klinik S24 UaK-12"
-        },
-        {
-          "date": "2026-11-04",
-          "start": "15:30",
-          "end": "17:00",
           "person": "HMUEF Klinik S24 UaK-12"
         }
       ]
