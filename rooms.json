@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T01:00:02.127838+02:00",
+  "updatedAt": "2026-09-01T01:00:02.064400+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -793,45 +793,45 @@
       "bookings": [
         {
           "date": "2026-09-18",
-          "start": "09:45",
-          "end": "13:00",
+          "start": "10:00",
+          "end": "13:15",
           "person": "EF_MPI_SS26"
         },
         {
           "date": "2026-09-18",
-          "start": "14:30",
-          "end": "18:00",
+          "start": "14:15",
+          "end": "15:45",
+          "person": "EF_MPI_SS26"
+        },
+        {
+          "date": "2026-09-18",
+          "start": "16:00",
+          "end": "19:15",
           "person": "EF_MPI_SS26"
         },
         {
           "date": "2026-09-19",
-          "start": "08:45",
-          "end": "13:00",
+          "start": "09:00",
+          "end": "10:30",
           "person": "EF_MPI_SS26"
         },
         {
           "date": "2026-09-19",
-          "start": "14:30",
-          "end": "18:45",
+          "start": "10:45",
+          "end": "12:15",
+          "person": "EF_MPI_SS26"
+        },
+        {
+          "date": "2026-09-19",
+          "start": "13:15",
+          "end": "16:30",
           "person": "EF_MPI_SS26"
         },
         {
           "date": "2026-09-20",
-          "start": "08:45",
-          "end": "13:45",
+          "start": "09:00",
+          "end": "10:30",
           "person": "EF_MPI_SS26"
-        },
-        {
-          "date": "2026-09-29",
-          "start": "07:00",
-          "end": "22:00",
-          "person": "Frau  Töpfer"
-        },
-        {
-          "date": "2026-09-30",
-          "start": "07:00",
-          "end": "12:00",
-          "person": "Frau  Töpfer"
         }
       ]
     },
@@ -886,12 +886,6 @@
       "id": "V01/02",
       "bookings": [
         {
-          "date": "2026-08-31",
-          "start": "10:00",
-          "end": "11:30",
-          "person": "Frau  Drzewicki"
-        },
-        {
           "date": "2026-09-03",
           "start": "10:00",
           "end": "10:30",
@@ -923,14 +917,7 @@
     },
     {
       "id": "V1.4",
-      "bookings": [
-        {
-          "date": "2026-08-31",
-          "start": "14:00",
-          "end": "15:00",
-          "person": "Frau  Dr. Witter"
-        }
-      ]
+      "bookings": []
     },
     {
       "id": "V1.5",
