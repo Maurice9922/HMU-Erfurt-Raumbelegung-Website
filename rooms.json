@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T01:00:02.372545+02:00",
+  "updatedAt": "2026-09-08T01:00:01.900148+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -152,38 +152,21 @@
           "person": "Frau  Dr. Witter"
         },
         {
-          "date": "2026-10-05",
-          "start": "08:00",
-          "end": "12:30",
-          "person": "Frau  Zeise"
+          "date": "2026-09-23",
+          "start": "10:00",
+          "end": "11:00",
+          "person": "Frau  Dr. Witter"
         },
         {
-          "date": "2026-10-08",
-          "start": "08:00",
-          "end": "11:30",
-          "person": "Frau  Zeise"
-        },
-        {
-          "date": "2026-10-09",
-          "start": "08:00",
-          "end": "12:30",
-          "person": "Frau  Markgraf"
-        },
-        {
-          "date": "2026-10-16",
-          "start": "08:00",
-          "end": "12:30",
-          "person": "Frau  Markgraf"
-        }
-      ]
-    },
-    {
-      "id": "P3.36L",
-      "bookings": [
-        {
-          "date": "2026-09-11",
+          "date": "2026-09-28",
           "start": "13:00",
           "end": "14:00",
+          "person": "Frau  Dr. Witter"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "14:15",
+          "end": "15:15",
           "person": "Frau  Dr. Witter"
         },
         {
@@ -203,9 +186,50 @@
           "start": "08:00",
           "end": "12:30",
           "person": "Frau  Markgraf"
+        }
+      ]
+    },
+    {
+      "id": "P3.36L",
+      "bookings": [
+        {
+          "date": "2026-09-11",
+          "start": "13:00",
+          "end": "14:00",
+          "person": "Frau  Dr. Witter"
         },
         {
-          "date": "2026-10-16",
+          "date": "2026-09-23",
+          "start": "10:00",
+          "end": "11:00",
+          "person": "Frau  Dr. Witter"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "13:00",
+          "end": "14:00",
+          "person": "Frau  Dr. Witter"
+        },
+        {
+          "date": "2026-09-28",
+          "start": "14:15",
+          "end": "15:15",
+          "person": "Frau  Dr. Witter"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "08:00",
+          "end": "12:30",
+          "person": "Frau  Zeise"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "08:00",
+          "end": "11:30",
+          "person": "Frau  Zeise"
+        },
+        {
+          "date": "2026-10-09",
           "start": "08:00",
           "end": "12:30",
           "person": "Frau  Markgraf"
@@ -885,12 +909,6 @@
     {
       "id": "V01/02",
       "bookings": [
-        {
-          "date": "2026-09-07",
-          "start": "10:00",
-          "end": "11:30",
-          "person": "Frau  Drzewicki"
-        },
         {
           "date": "2026-10-01",
           "start": "07:00",
