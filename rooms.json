@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T01:00:01.924799+02:00",
+  "updatedAt": "2026-09-11T01:00:02.433071+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -27,37 +27,11 @@
     },
     {
       "id": "P3.01",
-      "bookings": [
-        {
-          "date": "2026-09-10",
-          "start": "10:00",
-          "end": "11:00",
-          "person": "Herr  Müller"
-        },
-        {
-          "date": "2026-09-10",
-          "start": "16:00",
-          "end": "17:00",
-          "person": "Herr  Müller"
-        }
-      ]
+      "bookings": []
     },
     {
       "id": "P3.01L",
-      "bookings": [
-        {
-          "date": "2026-09-10",
-          "start": "10:00",
-          "end": "11:00",
-          "person": "Herr  Müller"
-        },
-        {
-          "date": "2026-09-10",
-          "start": "16:00",
-          "end": "17:00",
-          "person": "Herr  Müller"
-        }
-      ]
+      "bookings": []
     },
     {
       "id": "P3.02",
@@ -624,12 +598,6 @@
       "id": "AP2.09",
       "bookings": [
         {
-          "date": "2026-09-10",
-          "start": "16:45",
-          "end": "18:00",
-          "person": "Herr Prof. Dr. Meyer-Jenßen"
-        },
-        {
           "date": "2026-09-11",
           "start": "12:00",
           "end": "18:00",
@@ -664,6 +632,12 @@
           "start": "08:00",
           "end": "17:00",
           "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-09-21",
+          "start": "08:00",
+          "end": "17:00",
+          "person": "Frau  Töpfer"
         }
       ]
     },
@@ -695,22 +669,22 @@
           "person": "Frau  Khvasta"
         },
         {
-          "date": "2026-11-02",
-          "start": "08:00",
-          "end": "09:30",
-          "person": "HMUEF Klinik S24 UaK-07"
-        },
-        {
-          "date": "2026-11-02",
-          "start": "09:45",
-          "end": "11:15",
-          "person": "HMUEF Klinik S24 UaK-07"
-        },
-        {
-          "date": "2026-11-02",
+          "date": "2026-10-05",
           "start": "11:30",
           "end": "13:00",
-          "person": "HMUEF Klinik S24 UaK-07"
+          "person": "EF_MPT_SoSe26"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "EF_MPT_SoSe26"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "EF_P_WS25-1"
         }
       ]
     },
@@ -769,12 +743,6 @@
       "id": "KM2.02-03",
       "bookings": [
         {
-          "date": "2026-09-10",
-          "start": "10:00",
-          "end": "11:30",
-          "person": "Frau  Drzewicki"
-        },
-        {
           "date": "2026-09-11",
           "start": "10:00",
           "end": "11:30",
@@ -809,12 +777,24 @@
           "start": "18:00",
           "end": "22:00",
           "person": "Frau  Khvasta"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "HMUEF Klinik WS23 Vorlesungen"
         }
       ]
     },
     {
       "id": "KM2.04",
       "bookings": [
+        {
+          "date": "2026-09-11",
+          "start": "12:00",
+          "end": "18:00",
+          "person": "Frau  Schilling"
+        },
         {
           "date": "2026-09-18",
           "start": "10:00",
@@ -849,12 +829,6 @@
           "date": "2026-09-19",
           "start": "13:15",
           "end": "16:30",
-          "person": "EF_MPI_SS26"
-        },
-        {
-          "date": "2026-09-20",
-          "start": "09:00",
-          "end": "10:30",
           "person": "EF_MPI_SS26"
         }
       ]
@@ -920,6 +894,36 @@
           "start": "14:00",
           "end": "18:00",
           "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "EF_P_WS26-1"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "EF_P_WS26-2"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "EF_P_WS26-2"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "EF_P_WS26-1"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "EF_P_SoSe26-1"
         }
       ]
     },
@@ -929,7 +933,50 @@
     },
     {
       "id": "V1.4",
-      "bookings": []
+      "bookings": [
+        {
+          "date": "2026-09-15",
+          "start": "10:00",
+          "end": "11:00",
+          "person": "Frau  Drzewicki"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "EF_P_WS26-1"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "EF_P_WS26-1"
+        },
+        {
+          "date": "2026-10-05",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "EF_P_WS26-2"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "EF_KPP_WS26-1"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "EF_KPP_WS26-1"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "EF_KPP_WS26-1"
+        }
+      ]
     },
     {
       "id": "V1.5",
