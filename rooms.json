@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T01:00:03.658666+02:00",
+  "updatedAt": "2026-09-15T01:00:01.671119+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -459,6 +459,12 @@
           "date": "2026-10-19",
           "start": "13:45",
           "end": "15:15",
+          "person": "EF_Med_WS26-4a"
+        },
+        {
+          "date": "2026-10-19",
+          "start": "15:30",
+          "end": "17:00",
           "person": "EF_Med_WS26-1a"
         },
         {
@@ -466,12 +472,6 @@
           "start": "08:00",
           "end": "09:30",
           "person": "EF_ZM_SS26-2a"
-        },
-        {
-          "date": "2026-10-20",
-          "start": "09:45",
-          "end": "11:15",
-          "person": "Vorklinik EF_MED SS 25-III"
         }
       ]
     },
@@ -1285,7 +1285,7 @@
         },
         {
           "date": "2026-10-05",
-          "start": "14:30",
+          "start": "13:45",
           "end": "17:00",
           "person": "EF_ZM_WS26-1a"
         },
@@ -1297,7 +1297,7 @@
         },
         {
           "date": "2026-10-05",
-          "start": "18:00",
+          "start": "17:15",
           "end": "20:30",
           "person": "EF_ZM_WS26-2b"
         },
@@ -1309,7 +1309,7 @@
         },
         {
           "date": "2026-10-06",
-          "start": "08:45",
+          "start": "08:00",
           "end": "11:15",
           "person": "EF_Med_WS26-4a"
         },
@@ -1607,12 +1607,6 @@
       "id": "AP2.09",
       "bookings": [
         {
-          "date": "2026-09-14",
-          "start": "09:00",
-          "end": "17:00",
-          "person": "Frau  Kowol"
-        },
-        {
           "date": "2026-09-15",
           "start": "09:00",
           "end": "17:00",
@@ -1644,6 +1638,12 @@
         },
         {
           "date": "2026-09-22",
+          "start": "09:00",
+          "end": "17:00",
+          "person": "Frau  Kowol"
+        },
+        {
+          "date": "2026-09-23",
           "start": "09:00",
           "end": "17:00",
           "person": "Frau  Kowol"
@@ -1705,12 +1705,6 @@
       "id": "KM2.01",
       "bookings": [
         {
-          "date": "2026-09-14",
-          "start": "09:00",
-          "end": "17:00",
-          "person": "Frau  Kowol"
-        },
-        {
           "date": "2026-09-15",
           "start": "09:00",
           "end": "17:00",
@@ -1745,18 +1739,18 @@
           "start": "09:00",
           "end": "17:00",
           "person": "Frau  Kowol"
+        },
+        {
+          "date": "2026-09-23",
+          "start": "09:00",
+          "end": "17:00",
+          "person": "Frau  Kowol"
         }
       ]
     },
     {
       "id": "KM2.02-03",
       "bookings": [
-        {
-          "date": "2026-09-14",
-          "start": "10:00",
-          "end": "11:30",
-          "person": "Frau  Drzewicki"
-        },
         {
           "date": "2026-09-18",
           "start": "09:00",
@@ -1792,18 +1786,18 @@
           "start": "13:45",
           "end": "15:15",
           "person": "HMUEF Klinik WS23 Vorlesungen"
+        },
+        {
+          "date": "2026-10-06",
+          "start": "15:30",
+          "end": "17:00",
+          "person": "HMUEF Klinik WS23 Vorlesungen"
         }
       ]
     },
     {
       "id": "KM2.04",
       "bookings": [
-        {
-          "date": "2026-09-14",
-          "start": "09:00",
-          "end": "17:00",
-          "person": "Frau  Kowol"
-        },
         {
           "date": "2026-09-15",
           "start": "09:00",
@@ -1838,6 +1832,12 @@
           "date": "2026-09-18",
           "start": "16:00",
           "end": "19:15",
+          "person": "EF_MPI_SS26"
+        },
+        {
+          "date": "2026-09-19",
+          "start": "09:00",
+          "end": "10:30",
           "person": "EF_MPI_SS26"
         }
       ]
