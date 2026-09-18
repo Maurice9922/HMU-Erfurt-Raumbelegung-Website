@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T01:00:02.095995+02:00",
+  "updatedAt": "2026-09-19T01:00:02.310838+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -1607,12 +1607,6 @@
       "id": "AP2.09",
       "bookings": [
         {
-          "date": "2026-09-18",
-          "start": "09:00",
-          "end": "17:00",
-          "person": "Frau  Kowol"
-        },
-        {
           "date": "2026-09-21",
           "start": "09:00",
           "end": "17:00",
@@ -1647,18 +1641,18 @@
           "start": "18:00",
           "end": "23:00",
           "person": "Frau  Khvasta"
+        },
+        {
+          "date": "2026-10-01",
+          "start": "10:00",
+          "end": "12:00",
+          "person": "Herr  Schmidtell"
         }
       ]
     },
     {
       "id": "AP2.12",
       "bookings": [
-        {
-          "date": "2026-09-18",
-          "start": "13:30",
-          "end": "14:30",
-          "person": "Frau  Dr. Witter"
-        },
         {
           "date": "2026-09-28",
           "start": "08:00",
@@ -1694,6 +1688,12 @@
           "start": "11:30",
           "end": "13:00",
           "person": "EF_P_WS25-2"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "EF_P_WS25-1"
         }
       ]
     },
@@ -1704,12 +1704,6 @@
     {
       "id": "KM2.01",
       "bookings": [
-        {
-          "date": "2026-09-18",
-          "start": "09:00",
-          "end": "17:00",
-          "person": "Frau  Kowol"
-        },
         {
           "date": "2026-09-21",
           "start": "09:00",
@@ -1745,18 +1739,18 @@
           "start": "07:00",
           "end": "22:00",
           "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-09-30",
+          "start": "07:00",
+          "end": "15:00",
+          "person": "Frau  Töpfer"
         }
       ]
     },
     {
       "id": "KM2.02-03",
       "bookings": [
-        {
-          "date": "2026-09-18",
-          "start": "09:00",
-          "end": "17:00",
-          "person": "Frau  Kowol"
-        },
         {
           "date": "2026-09-29",
           "start": "07:00",
@@ -1792,30 +1786,18 @@
           "start": "15:30",
           "end": "17:00",
           "person": "HMUEF Klinik WS23 Vorlesungen"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "HMUEF Klinik S23 Vorlesungen"
         }
       ]
     },
     {
       "id": "KM2.04",
       "bookings": [
-        {
-          "date": "2026-09-18",
-          "start": "10:00",
-          "end": "13:15",
-          "person": "EF_MPI_SS26"
-        },
-        {
-          "date": "2026-09-18",
-          "start": "14:15",
-          "end": "15:45",
-          "person": "EF_MPI_SS26"
-        },
-        {
-          "date": "2026-09-18",
-          "start": "16:00",
-          "end": "19:15",
-          "person": "EF_MPI_SS26"
-        },
         {
           "date": "2026-09-19",
           "start": "09:00",
@@ -1839,6 +1821,24 @@
           "start": "09:00",
           "end": "10:30",
           "person": "EF_MPI_SS26"
+        },
+        {
+          "date": "2026-09-20",
+          "start": "10:45",
+          "end": "12:15",
+          "person": "EF_MPI_SS26"
+        },
+        {
+          "date": "2026-09-20",
+          "start": "12:30",
+          "end": "14:00",
+          "person": "EF_MPI_SS26"
+        },
+        {
+          "date": "2026-09-21",
+          "start": "09:00",
+          "end": "17:00",
+          "person": "Frau  Kowol"
         }
       ]
     },
@@ -1944,6 +1944,12 @@
       "id": "V1.4",
       "bookings": [
         {
+          "date": "2026-09-29",
+          "start": "10:00",
+          "end": "12:00",
+          "person": "Frau  Dr. Witter"
+        },
+        {
           "date": "2026-10-05",
           "start": "08:00",
           "end": "09:30",
@@ -1978,12 +1984,6 @@
           "start": "13:45",
           "end": "15:15",
           "person": "EF_KPP_WS26-1"
-        },
-        {
-          "date": "2026-10-08",
-          "start": "09:45",
-          "end": "12:15",
-          "person": "EF_P_SoSe26-1"
         }
       ]
     },
