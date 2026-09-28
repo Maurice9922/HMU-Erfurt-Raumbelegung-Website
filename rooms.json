@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T01:00:01.664325+02:00",
+  "updatedAt": "2026-09-29T01:00:01.959690+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -573,18 +573,6 @@
       "id": "P3.36",
       "bookings": [
         {
-          "date": "2026-09-28",
-          "start": "13:00",
-          "end": "14:00",
-          "person": "Frau  Dr. Witter"
-        },
-        {
-          "date": "2026-09-28",
-          "start": "14:15",
-          "end": "15:15",
-          "person": "Frau  Dr. Witter"
-        },
-        {
           "date": "2026-10-05",
           "start": "08:00",
           "end": "12:30",
@@ -613,6 +601,18 @@
           "start": "09:45",
           "end": "11:15",
           "person": "Vorklinik EF_MED WS 25-II"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "Vorklinik EF_MED WS 25-III"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "Vorklinik EF_MED WS 25-IV"
         }
       ]
     },
@@ -620,18 +620,6 @@
       "id": "P3.36L",
       "bookings": [
         {
-          "date": "2026-09-28",
-          "start": "13:00",
-          "end": "14:00",
-          "person": "Frau  Dr. Witter"
-        },
-        {
-          "date": "2026-09-28",
-          "start": "14:15",
-          "end": "15:15",
-          "person": "Frau  Dr. Witter"
-        },
-        {
           "date": "2026-10-05",
           "start": "08:00",
           "end": "12:30",
@@ -660,6 +648,18 @@
           "start": "09:45",
           "end": "11:15",
           "person": "Vorklinik EF_MED WS 25-II"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "Vorklinik EF_MED WS 25-III"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "Vorklinik EF_MED WS 25-IV"
         }
       ]
     },
@@ -1654,12 +1654,6 @@
       "id": "AP2.12",
       "bookings": [
         {
-          "date": "2026-09-28",
-          "start": "08:00",
-          "end": "09:00",
-          "person": "Frau  Töpfer"
-        },
-        {
           "date": "2026-09-29",
           "start": "14:00",
           "end": "20:00",
@@ -1693,6 +1687,12 @@
           "date": "2026-10-07",
           "start": "09:45",
           "end": "11:15",
+          "person": "EF_P_WS25-1"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "11:30",
+          "end": "13:00",
           "person": "EF_P_WS25-1"
         }
       ]
