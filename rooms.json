@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T01:00:02.387841+02:00",
+  "updatedAt": "2026-10-07T01:00:01.446850+02:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -52,18 +52,6 @@
       "id": "P2.05",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "14:30",
-          "end": "17:30",
-          "person": "Vorklinik EF_MED S 26-IV"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "14:30",
-          "end": "17:30",
-          "person": "Vorklinik EF_MED S 26-III"
-        },
-        {
           "date": "2026-10-08",
           "start": "13:00",
           "end": "14:30",
@@ -92,6 +80,18 @@
           "start": "11:30",
           "end": "13:00",
           "person": "Vorklinik EF_MED WS 26-VII"
+        },
+        {
+          "date": "2026-10-14",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "Vorklinik EF_MED WS 26-III"
+        },
+        {
+          "date": "2026-10-15",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "Vorklinik EF_MED WS 26-IV"
         }
       ]
     },
@@ -99,18 +99,6 @@
       "id": "P2.05L",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "14:30",
-          "end": "17:30",
-          "person": "Vorklinik EF_MED S 26-IV"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "14:30",
-          "end": "17:30",
-          "person": "Vorklinik EF_MED S 26-III"
-        },
-        {
           "date": "2026-10-08",
           "start": "13:00",
           "end": "14:30",
@@ -139,6 +127,18 @@
           "start": "11:30",
           "end": "13:00",
           "person": "Vorklinik EF_MED WS 26-VII"
+        },
+        {
+          "date": "2026-10-14",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "Vorklinik EF_MED WS 26-III"
+        },
+        {
+          "date": "2026-10-15",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "Vorklinik EF_MED WS 26-IV"
         }
       ]
     },
@@ -164,6 +164,12 @@
           "person": "Vorklinik EF_MED WS 26-VII"
         },
         {
+          "date": "2026-10-08",
+          "start": "16:15",
+          "end": "17:45",
+          "person": "WF Smart-Watch basierte Erfassung von Kreislaufparametern WS 26/27"
+        },
+        {
           "date": "2026-10-09",
           "start": "09:45",
           "end": "11:15",
@@ -180,12 +186,6 @@
           "start": "15:30",
           "end": "17:00",
           "person": "Vorklinik EF_MED WS 26-II"
-        },
-        {
-          "date": "2026-10-13",
-          "start": "12:15",
-          "end": "13:45",
-          "person": "Vorklinik EF_MED WS 26-I"
         }
       ]
     },
@@ -211,6 +211,12 @@
           "person": "Vorklinik EF_MED WS 26-VII"
         },
         {
+          "date": "2026-10-08",
+          "start": "16:15",
+          "end": "17:45",
+          "person": "WF Smart-Watch basierte Erfassung von Kreislaufparametern WS 26/27"
+        },
+        {
           "date": "2026-10-09",
           "start": "09:45",
           "end": "11:15",
@@ -227,12 +233,6 @@
           "start": "15:30",
           "end": "17:00",
           "person": "Vorklinik EF_MED WS 26-II"
-        },
-        {
-          "date": "2026-10-13",
-          "start": "12:15",
-          "end": "13:45",
-          "person": "Vorklinik EF_MED WS 26-I"
         }
       ]
     },
@@ -244,12 +244,6 @@
       "id": "P3.01",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "08:00",
-          "end": "13:00",
-          "person": "EF_Med_WS26-1a"
-        },
-        {
           "date": "2026-10-07",
           "start": "08:00",
           "end": "09:30",
@@ -284,6 +278,12 @@
           "start": "09:45",
           "end": "11:15",
           "person": "Vorklinik EF_MED WS 25-VII"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "12:15",
+          "end": "13:45",
+          "person": "Vorklinik EF_MED WS 26-IV"
         }
       ]
     },
@@ -291,12 +291,6 @@
       "id": "P3.01L",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "08:00",
-          "end": "13:00",
-          "person": "EF_Med_WS26-1a"
-        },
-        {
           "date": "2026-10-07",
           "start": "08:00",
           "end": "09:30",
@@ -331,6 +325,12 @@
           "start": "09:45",
           "end": "11:15",
           "person": "Vorklinik EF_MED WS 25-VII"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "12:15",
+          "end": "13:45",
+          "person": "Vorklinik EF_MED WS 26-IV"
         }
       ]
     },
@@ -573,24 +573,6 @@
       "id": "P3.36",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "08:00",
-          "end": "09:30",
-          "person": "Vorklinik EF_MED WS 26-III"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "09:45",
-          "end": "11:15",
-          "person": "Vorklinik EF_MED WS 26-IV"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "13:45",
-          "end": "15:15",
-          "person": "Vorklinik EF_MED WS 26-V"
-        },
-        {
           "date": "2026-10-07",
           "start": "09:45",
           "end": "11:15",
@@ -613,6 +595,24 @@
           "start": "08:00",
           "end": "11:30",
           "person": "Frau  Zeise"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "13:00",
+          "end": "14:30",
+          "person": "Vorklinik EF_MED S 26-II"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "14:45",
+          "end": "16:15",
+          "person": "Vorklinik EF_MED S 26-I"
+        },
+        {
+          "date": "2026-10-09",
+          "start": "08:00",
+          "end": "12:30",
+          "person": "Frau  Markgraf"
         }
       ]
     },
@@ -620,24 +620,6 @@
       "id": "P3.36L",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "08:00",
-          "end": "09:30",
-          "person": "Vorklinik EF_MED WS 26-III"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "09:45",
-          "end": "11:15",
-          "person": "Vorklinik EF_MED WS 26-IV"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "13:45",
-          "end": "15:15",
-          "person": "Vorklinik EF_MED WS 26-V"
-        },
-        {
           "date": "2026-10-07",
           "start": "09:45",
           "end": "11:15",
@@ -660,6 +642,24 @@
           "start": "08:00",
           "end": "11:30",
           "person": "Frau  Zeise"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "13:00",
+          "end": "14:30",
+          "person": "Vorklinik EF_MED S 26-II"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "14:45",
+          "end": "16:15",
+          "person": "Vorklinik EF_MED S 26-I"
+        },
+        {
+          "date": "2026-10-09",
+          "start": "08:00",
+          "end": "12:30",
+          "person": "Frau  Markgraf"
         }
       ]
     },
@@ -714,30 +714,6 @@
       "id": "P3.43",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "09:45",
-          "end": "11:15",
-          "person": "Vorklinik EF_ZM WS 26 - Vorlesungen"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "11:30",
-          "end": "12:15",
-          "person": "Vorklinik EF_ZM WS 26 - Vorlesungen"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "12:30",
-          "end": "13:15",
-          "person": "Vorklinik EF_ZM WS 26 - Vorlesungen"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "13:45",
-          "end": "15:15",
-          "person": "Vorklinik EF_ZM WS 26 - Vorlesungen"
-        },
-        {
           "date": "2026-10-07",
           "start": "09:45",
           "end": "11:15",
@@ -754,6 +730,30 @@
           "start": "08:00",
           "end": "09:30",
           "person": "EF_P_WS25-1"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "EF_P_WS25-2"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "EF_P_WS25-1"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "EF_P_WS25-2"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "Vorklinik EF_MED SS 25 - Vorlesungen"
         }
       ]
     },
@@ -996,12 +996,6 @@
       "id": "P4.13",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "15:45",
-          "end": "18:00",
-          "person": "Vorklinik EF_MED SS 25-II"
-        },
-        {
           "date": "2026-10-08",
           "start": "13:45",
           "end": "16:00",
@@ -1036,6 +1030,12 @@
           "start": "13:45",
           "end": "16:00",
           "person": "Vorklinik EF_MED SS 25-III"
+        },
+        {
+          "date": "2026-10-15",
+          "start": "08:00",
+          "end": "10:15",
+          "person": "Vorklinik EF_MED SS 25-I"
         }
       ]
     },
@@ -1043,12 +1043,6 @@
       "id": "P4.13L",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "15:45",
-          "end": "18:00",
-          "person": "Vorklinik EF_MED SS 25-II"
-        },
-        {
           "date": "2026-10-08",
           "start": "13:45",
           "end": "16:00",
@@ -1083,6 +1077,12 @@
           "start": "13:45",
           "end": "16:00",
           "person": "Vorklinik EF_MED SS 25-III"
+        },
+        {
+          "date": "2026-10-15",
+          "start": "08:00",
+          "end": "10:15",
+          "person": "Vorklinik EF_MED SS 25-I"
         }
       ]
     },
@@ -1278,46 +1278,46 @@
       "id": "P4.35",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "08:00",
-          "end": "08:45",
-          "person": "EF_Med_WS26-4a"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "08:00",
-          "end": "11:15",
-          "person": "EF_Med_WS26-4a"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "12:15",
-          "end": "13:00",
-          "person": "EF_Med_WS26-2a"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "12:15",
-          "end": "15:15",
-          "person": "EF_Med_WS26-2a"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "15:30",
-          "end": "16:15",
-          "person": "EF_Med_WS26-3b"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "15:30",
-          "end": "18:45",
-          "person": "EF_Med_WS26-3b"
-        },
-        {
           "date": "2026-10-07",
           "start": "13:45",
           "end": "14:30",
           "person": "EF_ZM_WS26-3a"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "13:45",
+          "end": "17:00",
+          "person": "EF_ZM_WS26-3a"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "17:15",
+          "end": "18:00",
+          "person": "EF_ZM_WS26-1b"
+        },
+        {
+          "date": "2026-10-07",
+          "start": "17:15",
+          "end": "20:30",
+          "person": "EF_ZM_WS26-1b"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "12:15",
+          "end": "13:00",
+          "person": "EF_Med_WS26-3a"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "12:15",
+          "end": "15:30",
+          "person": "EF_Med_WS26-3a"
+        },
+        {
+          "date": "2026-10-09",
+          "start": "08:00",
+          "end": "08:45",
+          "person": "EF_ZM_WS26-2a"
         }
       ]
     },
@@ -1372,24 +1372,6 @@
       "id": "P5.01-04",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "08:00",
-          "end": "12:30",
-          "person": "Frau  Zeise"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "12:15",
-          "end": "13:45",
-          "person": "Vorklinik EF_MED WS 25 - Vorlesungen"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "14:00",
-          "end": "15:30",
-          "person": "Vorklinik EF_MED SS 25 - Vorlesungen"
-        },
-        {
           "date": "2026-10-07",
           "start": "08:00",
           "end": "11:30",
@@ -1412,6 +1394,24 @@
           "start": "11:30",
           "end": "13:00",
           "person": "Vorklinik EF_MED SS 25 - Vorlesungen"
+        },
+        {
+          "date": "2026-10-09",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "Vorklinik EF_MED WS 26 - Vorlesungen"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "08:00",
+          "end": "10:00",
+          "person": "Frau  Zeise"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "Vorklinik EF_MED WS 25 - Vorlesungen"
         }
       ]
     },
@@ -1419,24 +1419,6 @@
       "id": "P5.01-04L",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "08:00",
-          "end": "12:30",
-          "person": "Frau  Zeise"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "12:15",
-          "end": "13:45",
-          "person": "Vorklinik EF_MED WS 25 - Vorlesungen"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "14:00",
-          "end": "15:30",
-          "person": "Vorklinik EF_MED SS 25 - Vorlesungen"
-        },
-        {
           "date": "2026-10-07",
           "start": "08:00",
           "end": "11:30",
@@ -1459,6 +1441,24 @@
           "start": "11:30",
           "end": "13:00",
           "person": "Vorklinik EF_MED SS 25 - Vorlesungen"
+        },
+        {
+          "date": "2026-10-09",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "Vorklinik EF_MED WS 26 - Vorlesungen"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "08:00",
+          "end": "10:00",
+          "person": "Frau  Zeise"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "Vorklinik EF_MED WS 25 - Vorlesungen"
         }
       ]
     },
@@ -1560,12 +1560,6 @@
       "id": "AP2.08",
       "bookings": [
         {
-          "date": "2026-10-06",
-          "start": "07:00",
-          "end": "18:00",
-          "person": "Frau  Töpfer"
-        },
-        {
           "date": "2026-10-07",
           "start": "08:00",
           "end": "09:30",
@@ -1584,12 +1578,6 @@
           "person": "EF_P_SoSe26-1"
         },
         {
-          "date": "2026-10-08",
-          "start": "07:00",
-          "end": "18:00",
-          "person": "Frau  Töpfer"
-        },
-        {
           "date": "2026-10-12",
           "start": "10:30",
           "end": "13:00",
@@ -1599,6 +1587,18 @@
           "date": "2026-10-12",
           "start": "10:30",
           "end": "13:00",
+          "person": "EF_KPP_WS26-2"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "13:45",
+          "end": "16:15",
+          "person": "EF_KPP_WS26-1"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "13:45",
+          "end": "16:15",
           "person": "EF_KPP_WS26-2"
         }
       ]
@@ -1632,6 +1632,12 @@
         },
         {
           "date": "2026-10-08",
+          "start": "07:00",
+          "end": "18:00",
+          "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-10-08",
           "start": "19:00",
           "end": "20:30",
           "person": "WF Forensische Toxikologie WS 26/27"
@@ -1641,30 +1647,12 @@
           "start": "09:00",
           "end": "13:00",
           "person": "WF Gesundheitspsychologie WS 26/27"
-        },
-        {
-          "date": "2026-10-12",
-          "start": "13:00",
-          "end": "15:00",
-          "person": "Frau  Bauer"
         }
       ]
     },
     {
       "id": "AP2.12",
       "bookings": [
-        {
-          "date": "2026-10-06",
-          "start": "08:00",
-          "end": "09:30",
-          "person": "EF_MPT_SoSe26"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "17:15",
-          "end": "18:45",
-          "person": "EF_P_WS25-2"
-        },
         {
           "date": "2026-10-07",
           "start": "09:45",
@@ -1694,6 +1682,18 @@
           "start": "09:45",
           "end": "11:15",
           "person": "EF_MPT_SoSe26"
+        },
+        {
+          "date": "2026-10-13",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "EF_MPT_SoSe26"
+        },
+        {
+          "date": "2026-10-13",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "EF_MPT_SoSe26"
         }
       ]
     },
@@ -1704,24 +1704,6 @@
     {
       "id": "KM2.01",
       "bookings": [
-        {
-          "date": "2026-10-06",
-          "start": "11:30",
-          "end": "13:00",
-          "person": "EF_KPP_WS26-2"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "13:45",
-          "end": "15:15",
-          "person": "EF_KPP_WS26-2"
-        },
-        {
-          "date": "2026-10-08",
-          "start": "16:15",
-          "end": "17:45",
-          "person": "WF Smart-Watch basierte Erfassung von Kreislaufparametern WS 26/27"
-        },
         {
           "date": "2026-10-13",
           "start": "08:45",
@@ -1745,24 +1727,30 @@
           "start": "11:30",
           "end": "13:00",
           "person": "HMUEF Klinik WS23-S-II"
+        },
+        {
+          "date": "2026-10-14",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "HMUEF Klinik WS23-S-I"
+        },
+        {
+          "date": "2026-10-16",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "HMUEF Klinik WS23-P-1a"
+        },
+        {
+          "date": "2026-10-19",
+          "start": "15:30",
+          "end": "17:00",
+          "person": "HMUEF Klinik WS24-S-II"
         }
       ]
     },
     {
       "id": "KM2.02-03",
       "bookings": [
-        {
-          "date": "2026-10-06",
-          "start": "13:45",
-          "end": "15:15",
-          "person": "HMUEF Klinik WS23 Vorlesungen"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "15:45",
-          "end": "17:15",
-          "person": "HMUEF Klinik WS23 Vorlesungen"
-        },
         {
           "date": "2026-10-08",
           "start": "09:45",
@@ -1792,36 +1780,24 @@
           "start": "13:45",
           "end": "15:15",
           "person": "HMUEF Klinik WS23 Vorlesungen"
+        },
+        {
+          "date": "2026-10-12",
+          "start": "15:30",
+          "end": "17:00",
+          "person": "HMUEF Klinik WS23 Vorlesungen"
+        },
+        {
+          "date": "2026-10-13",
+          "start": "13:45",
+          "end": "15:15",
+          "person": "HMUEF Klinik WS23 Vorlesungen"
         }
       ]
     },
     {
       "id": "KM2.04",
       "bookings": [
-        {
-          "date": "2026-10-06",
-          "start": "09:45",
-          "end": "11:15",
-          "person": "EF_KPP_WS26-1"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "09:45",
-          "end": "11:15",
-          "person": "EF_KPP_WS26-2"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "11:30",
-          "end": "13:00",
-          "person": "EF_KPP_WS26-1"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "13:45",
-          "end": "15:15",
-          "person": "EF_KPP_WS26-1"
-        },
         {
           "date": "2026-10-07",
           "start": "09:45",
@@ -1839,6 +1815,30 @@
           "start": "13:45",
           "end": "16:15",
           "person": "EF_KPP_WS26-1"
+        },
+        {
+          "date": "2026-10-13",
+          "start": "13:45",
+          "end": "16:15",
+          "person": "EF_KPP_WS26-2"
+        },
+        {
+          "date": "2026-10-14",
+          "start": "09:45",
+          "end": "12:15",
+          "person": "EF_P_WS26-1"
+        },
+        {
+          "date": "2026-10-21",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "HMUEF Klinik S24-S-I"
+        },
+        {
+          "date": "2026-10-21",
+          "start": "09:45",
+          "end": "11:15",
+          "person": "HMUEF Klinik S24-S-III"
         }
       ]
     },
@@ -1846,70 +1846,52 @@
       "id": "KM2.08",
       "bookings": [
         {
-          "date": "2026-10-06",
+          "date": "2026-10-07",
           "start": "08:00",
           "end": "09:30",
-          "person": "Vorklinik EF_MED S 26 - Vorlesungen"
+          "person": "Vorklinik EF_MED WS 26 - Vorlesungen"
         },
         {
-          "date": "2026-10-06",
+          "date": "2026-10-07",
           "start": "08:00",
           "end": "09:30",
-          "person": "Vorklinik EF_ZM SS 26 - Vorlesungen"
+          "person": "Vorklinik EF_ZM WS 26 - Vorlesungen"
         },
         {
-          "date": "2026-10-06",
+          "date": "2026-10-07",
           "start": "09:45",
           "end": "11:15",
-          "person": "Vorklinik EF_MED S 26 - Vorlesungen"
+          "person": "Vorklinik EF_MED WS 26 - Vorlesungen"
         },
         {
-          "date": "2026-10-06",
+          "date": "2026-10-07",
           "start": "09:45",
           "end": "11:15",
-          "person": "Vorklinik EF_ZM SS 26 - Vorlesungen"
+          "person": "Vorklinik EF_ZM WS 26 - Vorlesungen"
         },
         {
-          "date": "2026-10-06",
-          "start": "13:45",
-          "end": "15:15",
-          "person": "EF_P_WS25-1"
+          "date": "2026-10-07",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "Vorklinik EF_MED WS 26 - Vorlesungen"
         },
         {
-          "date": "2026-10-06",
-          "start": "13:45",
-          "end": "15:15",
-          "person": "EF_P_WS25-2"
+          "date": "2026-10-07",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "Vorklinik EF_ZM WS 26 - Vorlesungen"
         },
         {
-          "date": "2026-10-06",
-          "start": "15:30",
-          "end": "17:00",
-          "person": "EF_P_WS25-1"
+          "date": "2026-10-08",
+          "start": "08:00",
+          "end": "09:30",
+          "person": "Vorklinik EF_MED WS 26 - Vorlesungen"
         }
       ]
     },
     {
       "id": "V01/02",
       "bookings": [
-        {
-          "date": "2026-10-06",
-          "start": "08:45",
-          "end": "11:15",
-          "person": "EF_P_WS26-1"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "12:15",
-          "end": "13:45",
-          "person": "EF_P_WS26-1"
-        },
-        {
-          "date": "2026-10-06",
-          "start": "14:00",
-          "end": "15:30",
-          "person": "EF_P_WS26-1"
-        },
         {
           "date": "2026-10-07",
           "start": "09:45",
@@ -1933,6 +1915,24 @@
           "start": "09:45",
           "end": "11:15",
           "person": "EF_MPT_SoSe26"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "09:45",
+          "end": "10:30",
+          "person": "EF_KPP_WS26-2"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "09:45",
+          "end": "10:30",
+          "person": "EF_KPP_WS26-1"
+        },
+        {
+          "date": "2026-10-08",
+          "start": "10:30",
+          "end": "13:00",
+          "person": "EF_KPP_WS26-2"
         }
       ]
     },
