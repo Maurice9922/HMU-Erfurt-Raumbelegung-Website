@@ -1,15 +1,9 @@
 {
-  "updatedAt": "2026-10-24T01:00:02.214644+02:00",
+  "updatedAt": "2026-10-25T01:00:02.287424+02:00",
   "rooms": [
     {
       "id": "P2.04",
       "bookings": [
-        {
-          "date": "2026-10-24",
-          "start": "08:30",
-          "end": "17:00",
-          "person": "WF Sonoanatomie Gruppe 1 WS 26/27"
-        },
         {
           "date": "2026-10-25",
           "start": "08:30",
@@ -45,6 +39,12 @@
           "start": "08:00",
           "end": "11:15",
           "person": "EF_Med_SS26-2a"
+        },
+        {
+          "date": "2026-10-29",
+          "start": "08:00",
+          "end": "11:15",
+          "person": "EF_Med_SS26-2b"
         }
       ]
     },
@@ -1626,12 +1626,6 @@
       "id": "AP2.09",
       "bookings": [
         {
-          "date": "2026-10-24",
-          "start": "10:00",
-          "end": "17:00",
-          "person": "WF Rechtspsychologie WS 26/27"
-        },
-        {
           "date": "2026-10-25",
           "start": "10:00",
           "end": "16:00",
@@ -1666,6 +1660,12 @@
           "start": "15:45",
           "end": "17:15",
           "person": "HMUEF Klinik S24-S-I"
+        },
+        {
+          "date": "2026-10-27",
+          "start": "17:30",
+          "end": "19:00",
+          "person": "HMUEF Klinik S24-S-III"
         }
       ]
     },
