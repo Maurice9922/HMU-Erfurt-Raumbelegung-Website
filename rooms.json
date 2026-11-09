@@ -1,15 +1,9 @@
 {
-  "updatedAt": "2026-11-08T01:00:01.660577+01:00",
+  "updatedAt": "2026-11-09T01:00:01.647607+01:00",
   "rooms": [
     {
       "id": "P2.04",
       "bookings": [
-        {
-          "date": "2026-11-08",
-          "start": "08:30",
-          "end": "17:00",
-          "person": "WF Sonoanatomie Gruppe 2 WS 26/27"
-        },
         {
           "date": "2026-11-10",
           "start": "09:00",
@@ -45,6 +39,12 @@
           "start": "12:15",
           "end": "15:30",
           "person": "EF_Med_SS25-2a"
+        },
+        {
+          "date": "2026-11-20",
+          "start": "08:00",
+          "end": "11:15",
+          "person": "EF_Med_SS25-3a"
         }
       ]
     },
@@ -1632,12 +1632,6 @@
       "id": "AP2.09",
       "bookings": [
         {
-          "date": "2026-11-08",
-          "start": "09:00",
-          "end": "15:00",
-          "person": "WF Einführung in die Unfallchirurgie WS 26/27"
-        },
-        {
           "date": "2026-11-09",
           "start": "09:45",
           "end": "11:15",
@@ -1672,18 +1666,18 @@
           "start": "09:45",
           "end": "11:15",
           "person": "HMUEF Klinik WS24-S-IV"
+        },
+        {
+          "date": "2026-11-10",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "HMUEF Klinik WS24-S-IV"
         }
       ]
     },
     {
       "id": "AP2.12",
       "bookings": [
-        {
-          "date": "2026-11-08",
-          "start": "09:00",
-          "end": "17:00",
-          "person": "WF Einführung in die Psychiatrie: Was ist schon normal? WS 26/27"
-        },
         {
           "date": "2026-11-09",
           "start": "13:45",
@@ -1718,6 +1712,12 @@
           "date": "2026-11-10",
           "start": "13:45",
           "end": "15:15",
+          "person": "EF_KPP_WS26-2"
+        },
+        {
+          "date": "2026-11-10",
+          "start": "15:30",
+          "end": "17:00",
           "person": "EF_KPP_WS26-2"
         }
       ]
