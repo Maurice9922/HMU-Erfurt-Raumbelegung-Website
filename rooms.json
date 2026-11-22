@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T01:00:02.637529+01:00",
+  "updatedAt": "2026-11-22T01:00:02.506547+01:00",
   "rooms": [
     {
       "id": "P2.04",
@@ -1626,12 +1626,6 @@
       "id": "AP2.09",
       "bookings": [
         {
-          "date": "2026-11-21",
-          "start": "10:00",
-          "end": "17:00",
-          "person": "WF Rechtspsychologie WS 26/27"
-        },
-        {
           "date": "2026-11-22",
           "start": "10:00",
           "end": "16:00",
@@ -1666,18 +1660,18 @@
           "start": "09:45",
           "end": "11:15",
           "person": "EF_P_WS25-2"
+        },
+        {
+          "date": "2026-11-25",
+          "start": "11:30",
+          "end": "13:00",
+          "person": "EF_P_WS25-2"
         }
       ]
     },
     {
       "id": "AP2.12",
       "bookings": [
-        {
-          "date": "2026-11-21",
-          "start": "09:00",
-          "end": "17:00",
-          "person": "WF Einführung in die Psychiatrie: Was ist schon normal? WS 26/27"
-        },
         {
           "date": "2026-11-23",
           "start": "13:45",
@@ -1713,6 +1707,12 @@
           "start": "13:45",
           "end": "15:15",
           "person": "EF_MPT_SoSe26"
+        },
+        {
+          "date": "2026-11-24",
+          "start": "19:00",
+          "end": "20:30",
+          "person": "MED WS 25 Tutorien"
         }
       ]
     },
@@ -1912,12 +1912,6 @@
       "id": "V01/02",
       "bookings": [
         {
-          "date": "2026-11-21",
-          "start": "09:30",
-          "end": "17:00",
-          "person": "WF Smart-Watch basierte Erfassung von Kreislaufparametern WS 26/27"
-        },
-        {
           "date": "2026-11-22",
           "start": "09:30",
           "end": "17:00",
@@ -1952,6 +1946,12 @@
           "start": "17:00",
           "end": "21:00",
           "person": "Frau  Töpfer"
+        },
+        {
+          "date": "2026-11-24",
+          "start": "08:45",
+          "end": "11:00",
+          "person": "EF_P_WS26-1"
         }
       ]
     },
@@ -1994,12 +1994,6 @@
       "id": "V1.4",
       "bookings": [
         {
-          "date": "2026-11-21",
-          "start": "10:00",
-          "end": "13:00",
-          "person": "Herr Prof. Dr. Patejdl"
-        },
-        {
           "date": "2026-11-23",
           "start": "08:00",
           "end": "09:30",
@@ -2034,6 +2028,12 @@
           "start": "08:30",
           "end": "11:45",
           "person": "EF_KPP_WS26-III"
+        },
+        {
+          "date": "2026-11-26",
+          "start": "09:45",
+          "end": "12:15",
+          "person": "EF_P_SoSe26-1"
         }
       ]
     },
